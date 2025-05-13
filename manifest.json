@@ -3382,16 +3382,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/getting-started/browser-requirements.md",
       "output": {
         ".html": {
@@ -3416,16 +3406,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/getting-started/end-to-end-use-case.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/getting-started/free-trial.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/getting-started/free-trial.html"
         }
       },
       "version": ""
@@ -7809,16 +7789,6 @@
         },
         ".html": {
           "relative_path": "docs/installation/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
