@@ -78,23 +78,23 @@
 <p>If you require more Stream Hosts, follow these steps to add additional Azure Web Job Stream hosts.</p>
 <h2 id="setting-up-a-web-job">Setting up a Web Job</h2>
 <p>XMPro Stream Host can be hosted as a Web Job in Azure. Following are the steps required to set up a web job:</p>
-<p>  1. Install a Stream Host locally as a Console Application</p>
+<p>1. Install a Stream Host locally as a Console Application</p>
 <p>{% hint style=&quot;danger&quot; %}
 <strong>Warning:</strong> Read the instructions in the <a href="windows-x64.html">Install Stream Host on Windows x64 article</a>.
 {% endhint %}</p>
-<p>  2. Copy the installed files and add them to this <a href="https://firebasestorage.googleapis.com/v0/b/gitbook-legacy-files/o/assets%2F-MZAQh4Gn3jXbTJU2Mb4%2F-MdQnhG4EDOuuKUgRaen%2F-Md__5-am8y9M1w3Ms85%2FSH%20WebJob.zip?alt=media&amp;token=31a4ebd0-111a-4081-af43-dbfef057e559">zip</a></p>
+<p>2. Copy the installed files and add them to this <a href="https://firebasestorage.googleapis.com/v0/b/gitbook-legacy-files/o/assets%2F-MZAQh4Gn3jXbTJU2Mb4%2F-MdQnhG4EDOuuKUgRaen%2F-Md__5-am8y9M1w3Ms85%2FSH%20WebJob.zip?alt=media&amp;token=31a4ebd0-111a-4081-af43-dbfef057e559">zip</a></p>
 <p>{% hint style=&quot;info&quot; %}
 Installed files can usually be found at <em>C:\Program Files\XMPro Stream Host\*</em>
 {% endhint %}</p>
-<p>  3. Azure may restrict file uploads to 50Mb. If so, remove these from the zip to cut down the size:</p>
+<p>3. Azure may restrict file uploads to 50Mb. If so, remove these from the zip to cut down the size:</p>
 <ul>
 <li>Cache folder</li>
 <li>Logs folder</li>
 <li>*.jar files</li>
 <li>*.pdb</li>
 </ul>
-<p>  4. Create a Web Job as per the instructions on the <a href="https://docs.microsoft.com/en-us/azure/app-service/webjobs-create#CreateContinuous">Microsoft Documentation site</a>.</p>
-<p>  5. Choose the following settings:</p>
+<p>4. Create a Web Job as per the instructions on the <a href="https://docs.microsoft.com/en-us/azure/app-service/webjobs-create#CreateContinuous">Microsoft Documentation site</a>.</p>
+<p>5. Choose the following settings:</p>
 <table>
 <thead>
 <tr>

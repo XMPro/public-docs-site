@@ -87,7 +87,7 @@ Please note that the XMPro platform requires third-party cookies to be enabled o
 <p>Engineers should be alerted if the average flow rate falls below 250 L/s. If the average temperature starts to rise above 130°C then a critical level alert should be raised.</p>
 <p>Engineers should be provided a view to check the history of pump telemetry, maintenance records, and reservoir level to enable them to take necessary action.</p>
 <h2 id="1-design-data-streams-with-real-time-data-sources">1. Design Data Streams with Real-Time Data Sources</h2>
-<p>The Use Case requires that we gather the Flow Rate and Temperature data from three pumps constantly, and pass it on to be analyzed and have actions performed on the data. We will achieve this with the use of Data Streams. A Data Stream is a visual representation of a flow of data. It is created through the Data Stream Designer. </p>
+<p>The Use Case requires that we gather the Flow Rate and Temperature data from three pumps constantly, and pass it on to be analyzed and have actions performed on the data. We will achieve this with the use of Data Streams. A Data Stream is a visual representation of a flow of data. It is created through the Data Stream Designer.</p>
 <p>To access the Data Stream Designer, log into your XMPro Account and press the button in the top-left corner of the screen and click on the Data Stream Designer item.</p>
 <p><img src="../.gitbook/assets/image%20(283).png" alt=""></p>
 <p>A Data Stream has four components:</p>
@@ -151,11 +151,11 @@ Refer to <a href="../how-tos/agents/manage-agents.html#uploading-an-agent-to-dat
 <p><img src="../.gitbook/assets/E2E_1.png" alt=""></p>
 <p>Now we will configure the added Stream Objects. Save your Data Stream now and after every change to propagate the changes throughout the Data Stream.</p>
 <p>{% hint style=&quot;info&quot; %}
- See the article on <a href="../concepts/data-stream/stream-object-configuration.html">how to configure Stream Objects</a> for more information.
+See the article on <a href="../concepts/data-stream/stream-object-configuration.html">how to configure Stream Objects</a> for more information.
 {% endhint %}</p>
 <h4 id="simulate-pump-data">Simulate Pump Data</h4>
 <p><img src="../.gitbook/assets/image%20(392).png" alt=""></p>
-<p>We will need to simulate ingesting data about flow rate and temperature from sensors in the pumps. We can achieve this with the Event Simulator Agent. The &quot;Simulate Pump Data&quot; Event Simulator will constantly generate data defined by the Event Definitions at a rate defined by the Events per Second property. </p>
+<p>We will need to simulate ingesting data about flow rate and temperature from sensors in the pumps. We can achieve this with the Event Simulator Agent. The &quot;Simulate Pump Data&quot; Event Simulator will constantly generate data defined by the Event Definitions at a rate defined by the Events per Second property.</p>
 <p>{% hint style=&quot;info&quot; %}
 To edit the configuration of a Stream Object, either double-click it or click it once to select it and click the &quot;Configure&quot; button on the canvas header.
 {% endhint %}</p>
@@ -180,7 +180,7 @@ To edit the configuration of a Stream Object, either double-click it or click it
 <p><img src="../.gitbook/assets/image%20(1308).png" alt=""></p>
 <h4 id="add-pump-identifier">Add Pump Identifier</h4>
 <p><img src="../.gitbook/assets/image%20(805).png" alt=""></p>
-<p>We need to add a way to simulate having three different pumps. At the moment the data is not identified, so we will need to add a range of identifiers to the data. This can be achieved with the Calculated Field Agent. The &quot;Add Pump Identifier&quot; Calculated Field will add a &quot;PumpId&quot; field to the data generated with values &quot;A&quot;, &quot;B&quot;, and &quot;C&quot; for each subsequent row. </p>
+<p>We need to add a way to simulate having three different pumps. At the moment the data is not identified, so we will need to add a range of identifiers to the data. This can be achieved with the Calculated Field Agent. The &quot;Add Pump Identifier&quot; Calculated Field will add a &quot;PumpId&quot; field to the data generated with values &quot;A&quot;, &quot;B&quot;, and &quot;C&quot; for each subsequent row.</p>
 <p>To configure the Stream Object, double click on &quot;Add Pump Identifier&quot; to open its configuration. Or, you can also highlight the Stream Object and click on the &quot;Configure&quot; option at the top of the Data Stream.</p>
 <p>Keep &quot;Append to Current&quot; as the &quot;Results Returned As&quot; value. This will add the value calculated by the expression to each row instead of creating a new row with the identifier.</p>
 <p>Click the + button to the right of the Expressions grid to add the following expression:</p>
@@ -194,8 +194,8 @@ To edit the configuration of a Stream Object, either double-click it or click it
 <h4 id="simulate-context-data-for-assets">Simulate Context Data for Assets</h4>
 <p><img src="../.gitbook/assets/image%20(1810).png" alt=""></p>
 <p>There is often metadata associated with assets that is not part of the live data from the sensors.  In this case, metadata includes whether the pump is currently under maintenance, the manufacturer, and the last service date. We must retrieve this data from elsewhere. In a production environment, this might be an SAP EAM system, but for this example, we can achieve this through the CSV Context Provider Agent.</p>
-<p>Double-click on the &quot;Simulate Context Data for Assets&quot; Stream Object to open the configuration menu. You can also highlight the Stream Object and click on the &quot;Configure&quot; option at the top of the Data Stream.  </p>
-<p> Download the provided file. The contents of the file are below the download link.</p>
+<p>Double-click on the &quot;Simulate Context Data for Assets&quot; Stream Object to open the configuration menu. You can also highlight the Stream Object and click on the &quot;Configure&quot; option at the top of the Data Stream.</p>
+<p>Download the provided file. The contents of the file are below the download link.</p>
 <p>{% file src=&quot;../.gitbook/assets/AssetsContext.csv&quot; %}
 AssetsContext.csv
 {% endfile %}</p>
@@ -205,7 +205,7 @@ B,FALSE,Bosch,2020-08-06
 C,FALSE,Bosch,2020-01-04
 </code></pre>
 <p>Then under Data check the <em>Use Uploaded File?</em> checkbox and upload the file into the CSV Context Provider. The CSV Definition will be automatically detected and filled.</p>
-<p>Change <em>UnderMaintenance</em> from a <em>String</em> to a <em>Boolean</em>, using the options from the dropdown. Also change <em>ServiceDate</em> from a <em>String</em> to a <em>DateTime</em>, using the dropdown. Leave the <em>Limit Rows</em>, <em>Filter Criteria,</em> and <em>Sort by</em> properties as their default values. </p>
+<p>Change <em>UnderMaintenance</em> from a <em>String</em> to a <em>Boolean</em>, using the options from the dropdown. Also change <em>ServiceDate</em> from a <em>String</em> to a <em>DateTime</em>, using the dropdown. Leave the <em>Limit Rows</em>, <em>Filter Criteria,</em> and <em>Sort by</em> properties as their default values.</p>
 <p>When completed, press the &quot;Apply&quot; button at the top of the configuration, and then save the Data Stream.</p>
 <p><img src="../.gitbook/assets/image%20(1380).png" alt=""></p>
 <h4 id="contextualize-data">Contextualize Data</h4>
@@ -228,20 +228,20 @@ You may need to maximize the page to see the grid properly. You can do this by p
 <p>Press &quot;Apply&quot; on the Contextualize Data configuration page, and press &quot;Save&quot; on the Data Stream page.</p>
 <p><img src="../.gitbook/assets/image%20(1711).png" alt=""></p>
 <h3 id="create-analytics-and-calculations">Create Analytics and Calculations</h3>
-<p>In this section, we will add some analytics and calculations that will find exceptions, transform the units of the data and find the average level across 5 seconds. </p>
+<p>In this section, we will add some analytics and calculations that will find exceptions, transform the units of the data and find the average level across 5 seconds.</p>
 <h4 id="ignore-pumps-under-maintenance">Ignore Pumps Under Maintenance</h4>
 <p><img src="../.gitbook/assets/image%20(983).png" alt=""></p>
-<p>We want to only pass data onward in the Stream if the current pump is not under maintenance. This can be achieved with the Filter Agent. To do this, drag in a Filter Agent and connect the &quot;Contextualize Data&quot; Join endpoint to the Filter. </p>
+<p>We want to only pass data onward in the Stream if the current pump is not under maintenance. This can be achieved with the Filter Agent. To do this, drag in a Filter Agent and connect the &quot;Contextualize Data&quot; Join endpoint to the Filter.</p>
 <p>Rename the Filter to &quot;Ignore Pumps Under Maintenance&quot;, and save. Double-click on the Stream Object to open the configuration menu. Click on the + symbol to add a new rule for the filter. Select &quot;Add Condition&quot;, and configure the Filter to have the logic <code>R_UnderMaintenance</code> <code>Equals</code> <code>false</code>.</p>
 <p>The configuration and Data Stream should look like this:</p>
 <p><img src="../.gitbook/assets/E2E_2.png" alt=""></p>
-<p>There are two green outputs to the Filter Stream Object, the left output is where the data is output to when the filter is true. The right output is where the data is output to when the filter is false. The left True Output should be the output that you connect to the next Stream Object. </p>
+<p>There are two green outputs to the Filter Stream Object, the left output is where the data is output to when the filter is true. The right output is where the data is output to when the filter is false. The left True Output should be the output that you connect to the next Stream Object.</p>
 <p><img src="../.gitbook/assets/image%20(627).png" alt=""></p>
 <p>Press &quot;Apply&quot; on the Ignore Pumps Under Maintenance Data configuration page, and press &quot;Save&quot; on the Data Stream page.</p>
 <h4 id="change-unit-to-ls">Change Unit to L/s</h4>
 <p><img src="../.gitbook/assets/image%20(426).png" alt=""></p>
-<p>The data from the Pump Data has different units than what we want to use - it is measured in L/m and we want the units to be in L/s. This can be solved with the Calculated Field Agent. To transform the data, drag in a Calculated Field Agent, and rename it to &quot;Change Unit to L/s&quot;. </p>
-<p>Connect the &quot;Ignore Pumps Under maintenance&quot; Filter endpoint to the Calculated Field and Save. Make sure you connect the left True Output of the  &quot;Ignore Pumps Under maintenance&quot; Stream Object to the Calculated Field's input. </p>
+<p>The data from the Pump Data has different units than what we want to use - it is measured in L/m and we want the units to be in L/s. This can be solved with the Calculated Field Agent. To transform the data, drag in a Calculated Field Agent, and rename it to &quot;Change Unit to L/s&quot;.</p>
+<p>Connect the &quot;Ignore Pumps Under maintenance&quot; Filter endpoint to the Calculated Field and Save. Make sure you connect the left True Output of the  &quot;Ignore Pumps Under maintenance&quot; Stream Object to the Calculated Field's input.</p>
 <p><img src="../.gitbook/assets/nLryP9xJvq.gif" alt=""></p>
 <p>Configure the Calculated Field as follows:</p>
 <ul>
@@ -306,15 +306,15 @@ You may need to maximize the page to see the grid properly. You can do this by p
 <li><em>Key</em>: the App Designer Key.</li>
 <li><em>Output on first occurrence Only?</em>: true</li>
 <li><em>Entity Identifier</em>: L_PumpId - this is for the Recommendation to create separate Alerts for each Entity</li>
-<li><em>Columns To Return</em>: Leave empty (Return all columns) </li>
+<li><em>Columns To Return</em>: Leave empty (Return all columns)</li>
 </ul>
 <p>{% hint style=&quot;info&quot; %}
 It is highly recommended that you use any <a href="../concepts/variable.html">variables</a> that you already have that store the URL or key. You may use the variables that have already been set up if you are using the Free Trial.
 {% endhint %}</p>
-<p> Otherwise, the App Designer URL and Key can be found by following these steps:</p>
+<p>Otherwise, the App Designer URL and Key can be found by following these steps:</p>
 <ol>
 <li>Open the App Designer in a new tab by clicking the &quot;Waffle&quot; button (a.ka. &quot;App Launcher&quot;) in the top left corner of the page and clicking &quot;App Designer&quot;.</li>
-<li>Copy the App Designer URL from the browser's address bar and paste it into the Url field in the Run Recommendation configuration. </li>
+<li>Copy the App Designer URL from the browser's address bar and paste it into the Url field in the Run Recommendation configuration.</li>
 <li>Click the &quot;Settings&quot; button in the top bar and click the &quot;Copy&quot; button to the right of the Integration Key and paste it in the Key field in the Run Recommendation configuration. You will only be able to see this if you have Admin access. If you do not have Admin access, you can ask an Admin to share the key with you.</li>
 </ol>
 <p>{% hint style=&quot;info&quot; %}
@@ -329,7 +329,7 @@ If you are configuring the URL and Integration Key without using variables, make
 <p><img src="../.gitbook/assets/image%20(1493).png" alt=""></p>
 <p>We want to send data to an App to be displayed as a decision support dashboard for the engineers. This can be achieved through the XMPro App Agent.</p>
 <p>Drag two XMPro App Agents onto the Data Stream and name them &quot;Post Pump Overview&quot; and &quot;Post Pump Specifics&quot;. One will send an overview of the data for all pumps, and the other will send a large cached amount of data for each pump.</p>
-<p>Now we run into a problem; we want to connect multiple agents to the same data. To solve this, drag a Broadcast Agent into the Stream, and rename it to &quot;Broadcast&quot;. Disconnect the &quot;Ignore Pumps Under Maintenance&quot; input arrow and connect it to the new Broadcast Stream Object. You can disconnect the arrow by highlighting the arrow itself and clicking on the &quot;Delete&quot; button at the top of the Data Stream. </p>
+<p>Now we run into a problem; we want to connect multiple agents to the same data. To solve this, drag a Broadcast Agent into the Stream, and rename it to &quot;Broadcast&quot;. Disconnect the &quot;Ignore Pumps Under Maintenance&quot; input arrow and connect it to the new Broadcast Stream Object. You can disconnect the arrow by highlighting the arrow itself and clicking on the &quot;Delete&quot; button at the top of the Data Stream.</p>
 <p>Alternatively, you can click on the green rectangle (input) on the &quot;Ignore Pumps Under Maintenance&quot; Stream Object, and drag the arrow to the green rectangle (input) of the &quot;Broadcast&quot; Stream Object. Connect the Broadcast endpoints to the two XMPro App Stream Objects and the &quot;Ignore Pumps Under maintenance&quot; Filter, as shown in the video below:</p>
 <p><img src="../.gitbook/assets/EPb8odj6Me.gif" alt=""></p>
 <p>Press the &quot;Save&quot; button at the top of the Data Stream. Your Data Stream should now look like this:</p>
@@ -461,8 +461,8 @@ The tags for the Alert Heading and Alert Description fields will not work if the
 <a href="../concepts/recommendation/rule.html#rule-logic">For more details on Rule Logic, see this article</a>.
 {% endhint %}</p>
 <h3 id="create-recommendations--triage-instructions">Create recommendations &amp; Triage Instructions</h3>
-<p>There should be some instructions for the engineers to follow to help resolve the issue when it occurs. This can be provided through the Triage Instructions. </p>
-<p>Continue creating the Rule with the following properties: </p>
+<p>There should be some instructions for the engineers to follow to help resolve the issue when it occurs. This can be provided through the Triage Instructions.</p>
+<p>Continue creating the Rule with the following properties:</p>
 <table>
 <thead>
 <tr>
@@ -536,7 +536,7 @@ The tags for the Alert Heading and Alert Description fields will not work if the
 <p>You can see this rule in action by clicking the &quot;Publish&quot; command in the Recommendation and in the Pump Condition Monitoring Data Stream. If the average flow rate coming from the Data Stream is lower than 250 L/s the Rule will generate an Alert for each Pump that can be viewed in the Recommendation Alerts grid.</p>
 <p>Click on the &quot;Recommendations&quot; button to go back to the Recommendation Alerts grid.</p>
 <p><img src="../.gitbook/assets/image%20(405).png" alt=""></p>
-<p>To see more details about the alert, click on a row in the &quot;Recommendation Alerts&quot; grid. The Recommendation Alert page provides details of the alert and allows you to monitor, discuss, and take action. </p>
+<p>To see more details about the alert, click on a row in the &quot;Recommendation Alerts&quot; grid. The Recommendation Alert page provides details of the alert and allows you to monitor, discuss, and take action.</p>
 <p><img src="../.gitbook/assets/image%20(1717).png" alt=""></p>
 <h3 id="multiple-rules-and-rule-escalation">Multiple Rules and Rule escalation</h3>
 <p>We want to trigger new Alerts that override the Medium level alert raised before if the temperature averaged over 5 seconds also starts to rise above 130°C.</p>
@@ -663,11 +663,11 @@ See the articles on <a href="../how-tos/apps/use-block-styling-and-devices.html"
 {% endhint %}</p>
 <p>The result should look like this:</p>
 <p><img src="../.gitbook/assets/image%20(796).png" alt=""></p>
-<p>We want to display the properties of the pumps in regularly spaced and sized cards on an App page. To do this, create one card with a Data Source, which will repeat the card for each pump. </p>
+<p>We want to display the properties of the pumps in regularly spaced and sized cards on an App page. To do this, create one card with a Data Source, which will repeat the card for each pump.</p>
 <p>Change the Left Vertical Stacked Layout's Display property in the Block Styling to block, so that the cards will overflow to however many pumps are present.</p>
 <p>Press the &quot;Save&quot; button at the top of the Application designer.</p>
 <p><img src="../.gitbook/assets/image%20(609).png" alt=""></p>
-<p>Follow the steps below to select the left Card and delete it. We will replace the default Card with a useful layout. </p>
+<p>Follow the steps below to select the left Card and delete it. We will replace the default Card with a useful layout.</p>
 <ol>
 <li>Open the Page Layers.</li>
 <li>Expand to the Left Vertical Stacked Layout's Card.</li>
@@ -681,14 +681,14 @@ See the articles on <a href="../how-tos/apps/use-block-styling-and-devices.html"
 <p>{% hint style=&quot;info&quot; %}
 See the article on <a href="../concepts/application/block.html">Blocks</a> for more information.
 {% endhint %}</p>
-<p>We want the card to take up half the width of the left section, and overflow to the next line when there are more than 2 cards. </p>
+<p>We want the card to take up half the width of the left section, and overflow to the next line when there are more than 2 cards.</p>
 <ol>
-<li>Select the new Card using the Page Layers tab. </li>
-<li>Click on the &quot;Block Styling&quot; tab. </li>
+<li>Select the new Card using the Page Layers tab.</li>
+<li>Click on the &quot;Block Styling&quot; tab.</li>
 <li>At the top, in the &quot;Style Group&quot; field, click on the checkbox on the left of the &quot;card-gutter&quot; tag to unselect the card-gutter style group. This is because we only want to apply styles to this specific element.</li>
-<li>Under the &quot;General&quot; subsection, change &quot;Display&quot; to &quot;inline-block&quot;. </li>
+<li>Under the &quot;General&quot; subsection, change &quot;Display&quot; to &quot;inline-block&quot;.</li>
 <li>Under the &quot;Dimensions&quot; subsection, change the Width to 50.</li>
-<li>Under the &quot;Dimensions&quot; subsection, change the unit to %. </li>
+<li>Under the &quot;Dimensions&quot; subsection, change the unit to %.</li>
 </ol>
 <p><img src="../.gitbook/assets/image%20(118).png" alt=""></p>
 <p><img src="../.gitbook/assets/image%20(1119).png" alt=""></p>
@@ -700,11 +700,11 @@ See the article on <a href="../concepts/application/block.html">Blocks</a> for m
 <p>The &quot;Status&quot; indicator should be red or green, depending on whether the pump is under maintenance or not. Change the left Indicator's Color in the Block Properties to &quot;#ad6363&quot; (red), and the right to &quot;#398a33&quot; (green).</p>
 <p><img src="../.gitbook/assets/image%20(913).png" alt=""></p>
 <h3 id="data-source-for-pump-data">Data Source for Pump Data</h3>
-<p>Add the Data Source that will be used to display our pump data. </p>
+<p>Add the Data Source that will be used to display our pump data.</p>
 <ol>
 <li>Click on the &quot;Page Data&quot; button.</li>
-<li>Click the + button next to Data Sources. </li>
-<li>Add a Data Source with <em>Name</em> as Pump Data, <em>Connection</em> as Data Streams Connector, and <em>Entity</em> as Post Pump Overview. </li>
+<li>Click the + button next to Data Sources.</li>
+<li>Add a Data Source with <em>Name</em> as Pump Data, <em>Connection</em> as Data Streams Connector, and <em>Entity</em> as Post Pump Overview.</li>
 <li>Check Live Data Updates as well to keep the data constantly updated.</li>
 <li>Click on the &quot;Save&quot; button.</li>
 </ol>
@@ -745,11 +745,11 @@ See the <a href="../how-tos/manage-access.html">How to Manage Access</a> article
 <p><img src="../.gitbook/assets/image%20(1116).png" alt=""></p>
 <ol>
 <li>Click on the &quot;Block Properties&quot; tab.</li>
-<li>Change the <em>Navigate to</em> property to &quot;Page&quot;, the <em>Page</em> property to &quot;Pump Details&quot;, and click the &quot;Edit&quot; button to the right of Pass Page Parameters. </li>
-<li>Press the + button on the Pass Page Parameters page to add a new Parameter to the Pump Details Page. </li>
-<li>Name the Parameter &quot;PumpId&quot; and give it the <em>Type</em> &quot;String&quot;. </li>
-<li>Click on &quot;Add&quot;. </li>
-<li>As mentioned previously, clicking on the icon on the left of the textbox field can toggle between Static, Dynamic, and Expression modes. Click on the button in the Value column once to change it to 'Dynamic' mode, which is indicated by the Database symbol. </li>
+<li>Change the <em>Navigate to</em> property to &quot;Page&quot;, the <em>Page</em> property to &quot;Pump Details&quot;, and click the &quot;Edit&quot; button to the right of Pass Page Parameters.</li>
+<li>Press the + button on the Pass Page Parameters page to add a new Parameter to the Pump Details Page.</li>
+<li>Name the Parameter &quot;PumpId&quot; and give it the <em>Type</em> &quot;String&quot;.</li>
+<li>Click on &quot;Add&quot;.</li>
+<li>As mentioned previously, clicking on the icon on the left of the textbox field can toggle between Static, Dynamic, and Expression modes. Click on the button in the Value column once to change it to 'Dynamic' mode, which is indicated by the Database symbol.</li>
 <li>Select the value &quot;L_PumpId&quot; as this is the value we want to pass to the drill-down page.</li>
 <li>Click &quot;Apply&quot; to apply your changes to the Pump Details page's Parameters and the Box Hyperlink.</li>
 </ol>
@@ -759,17 +759,17 @@ See the <a href="../how-tos/manage-access.html">How to Manage Access</a> article
 If you are unable to see the parameters in the drop-down list, double-check that the Data Source has been applied to the correct Card block, as shown <a href="end-to-end-use-case.html#data-source-for-pump-data">above</a>.
 {% endhint %}</p>
 <p>To see the navigation in action, launch the Landing Page and click on one of the cards. You will be navigated to the Pump Details page.</p>
-<p>Press the &quot;Edit&quot; button at the top right of the Pump Details page to edit it. </p>
+<p>Press the &quot;Edit&quot; button at the top right of the Pump Details page to edit it.</p>
 <p>We want a similar layout for this page, so follow the steps from the Landing Page to duplicate the Vertical Stacked Layout, and make the left side twice as wide as the right side. <a href="end-to-end-use-case.html#app-layout">See the instructions that previously showed how to do this</a>.</p>
 <p>We want two cards inside the Left Vertical Stacked Layout, so select the left Card and duplicate it.</p>
 <p><img src="../.gitbook/assets/image%20(1383).png" alt=""></p>
 <p>We want the top left card to be twice as tall as the bottom left card, so change the top left Card's Flex Grow property to 2 in the Block Styling. Remember to uncheck the card-gutter style group to make the style only apply to the selected element.</p>
 <p><img src="../.gitbook/assets/image%20(520).png" alt=""></p>
-<p>We want the title of the page to be the Pump's name, so change the Title's Text property to an expression value <code>&quot;Pump &quot; + {Parameter.PumpId}</code>. </p>
+<p>We want the title of the page to be the Pump's name, so change the Title's Text property to an expression value <code>&quot;Pump &quot; + {Parameter.PumpId}</code>.</p>
 <p>We also want the Headings of the page to explain what is being shown, so change the top-left heading's text to &quot;Details&quot; and the bottom-left heading's text to &quot;Maintenance History&quot;.</p>
 <p><img src="../.gitbook/assets/image%20(1668).png" alt=""></p>
-<p>We need to get the data from the Data Stream. Go back to the Page Data tab, and next to 'Data Sources', click on the &quot;plus&quot; symbol to add another Data Source. Name the new Data Source &quot;Pump Live Data&quot;, with the Connection &quot;Data Streams Connector&quot;, Entity as &quot;Post Pump Specifics&quot;, and Live Data Updates checked. </p>
-<p>Drag a Chart into the Details card. Highlight the Chart, and in the Block Properties tab, set the Data Source of the Chart to &quot;Pump Live Data&quot;. </p>
+<p>We need to get the data from the Data Stream. Go back to the Page Data tab, and next to 'Data Sources', click on the &quot;plus&quot; symbol to add another Data Source. Name the new Data Source &quot;Pump Live Data&quot;, with the Connection &quot;Data Streams Connector&quot;, Entity as &quot;Post Pump Specifics&quot;, and Live Data Updates checked.</p>
+<p>Drag a Chart into the Details card. Highlight the Chart, and in the Block Properties tab, set the Data Source of the Chart to &quot;Pump Live Data&quot;.</p>
 <p>Add a Filter to the Data Source of <code>L_PumpId</code> <code>Equals</code> <code>{Parameter.PumpId}</code>. Click on the &quot;plus&quot; button to start adding the filter.</p>
 <p><img src="../.gitbook/assets/image%20(58).png" alt=""></p>
 <p>When selecting the &quot;PumpId&quot;, press the button on the left of the field to toggle between Static and Dynamic value modes. Change the mode to Dynamic so you can select a dynamic value from the dropdown. Here you can select the &quot;PumpId&quot; Parameter. This will make sure the chart is only showing data from the pump that we are looking at.</p>
@@ -824,7 +824,7 @@ See the <a href="../blocks-toolbox/visualizations/chart.html">Chart</a> article 
 </tr>
 </tbody>
 </table>
-<p>When making the 'Temperature' series, you will need to add a new Pane called 'Temperature.' </p>
+<p>When making the 'Temperature' series, you will need to add a new Pane called 'Temperature.'</p>
 <p>To add a new Pane for the chart, click the 'Edit' button next to 'Pane' in the series property page.</p>
 <p><img src="../.gitbook/assets/E2E%20Edit%20Panes%203.png" alt=""></p>
 <p>You can see how this looks by launching the page with the PumpId parameter &quot;A&quot;, &quot;B&quot;, or &quot;C&quot;</p>

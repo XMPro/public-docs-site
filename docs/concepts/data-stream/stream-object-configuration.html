@@ -97,7 +97,7 @@
 <li>Upload a CSV file</li>
 <li>Specify the CSV definition (name of each column in the CSV file along with what data type the values in each column are)</li>
 </ul>
-<p>If these values have been provided correctly, the data will be read from the CSV file you specified when you <a href="../../how-tos/publish/">publish</a> your stream. </p>
+<p>If these values have been provided correctly, the data will be read from the CSV file you specified when you <a href="../../how-tos/publish/">publish</a> your stream.</p>
 <p><img src="images/image-451.png" alt=""></p>
 <h2 id="input-mapping-and-arrow-configuration">Input Mapping and Arrow Configuration</h2>
 <p>Some Agents allow inputs to be mapped if the <em>Require Input Map</em> property has been set to <em>true</em> during <a href="../../how-tos/agents/packaging-agents.html">packaging</a>. What Input Mapping allows you to do is to specify that a specific Agent receives its input in a specific structure. This causes the arrows leading to an Agent to be made configurable and will allow the user to map the inputs of an agent to incoming attributes, for example:</p>
@@ -126,7 +126,7 @@
 </ul>
 <p>For the data to be written to the database in a specific format, you need to map the correct columns in the CSV file to the correct SQL Server table columns. To do this, both the CSV Listener and the SQL Server Writer Agents need to be configured first. To configure an Agent, click on the Agent and then on the “<em>Configure</em>” button. Fill in all the details required, for example, the SQL Server instance name and credentials.</p>
 <p>Next, you can go ahead and configure the Input Mapping by clicking on the arrow that connects the CSV Listener and the SQL Server Writer Agents. Then, click on “<em>Configure</em>“. Choose which column should be mapped to which column by selecting the correct value from the drop-down menu for each row. Please note that the data types of the items being mapped to each other need to be the same. If not, the value in the left column will be disabled and you will not be able to select it.</p>
-<p>Remember that, even though the same principle applies to all Agents, input mapping might be done differently for different Agents. </p>
+<p>Remember that, even though the same principle applies to all Agents, input mapping might be done differently for different Agents.</p>
 <p><img src="images/image-274.png" alt=""></p>
 <h3 id="mapping-functions">Mapping Functions</h3>
 <p>In some cases, you might have to map a large number of inputs for an Agent. Some functions have been implemented to make the process of mapping a large number of fields easier, such as <em>Match by Expression</em>, <em>AutoMap</em>, and <em>Show Unmapped</em>.</p>
@@ -150,7 +150,7 @@
 <li>In the CSV listener Agent, there is a column named “A01_<em>Temperature</em>“</li>
 <li>In the SQL Server Writer Agent, there is a column named “<em>Temperature</em>“</li>
 </ul>
-<p>In the images below, “<em>A01” is specified as the postfix. Based on the prefix given, the column “A01</em>_<em>Temperature</em>” in the CSV Listener can be matched to the column “<em>Temperature</em>” in the SQL Server Writer Agent.  </p>
+<p>In the images below, “<em>A01” is specified as the postfix. Based on the prefix given, the column “A01</em>_<em>Temperature</em>” in the CSV Listener can be matched to the column “<em>Temperature</em>” in the SQL Server Writer Agent.</p>
 <p><img src="images/image-559.png" alt=""></p>
 <p><img src="images/image-972.png" alt=""></p>
 <p>The <strong>Postfix</strong> option allows you to specify that columns should be matched based on the last part of a column name, for example,</p>
@@ -158,7 +158,7 @@
 <li>In the file uploaded to the CSV listener Agent, there are columns named “<em>Temperature_A01</em>“ and “<em>Vibration_A01</em>“</li>
 <li>In the table referenced in the SQL Server Writer Agent configurations, there are columns named “<em>Temperature</em>“ and “<em>Vibration</em>“</li>
 </ul>
-<p>In the images below, “<em>_A01</em>” is specified as the postfix. Based on the postfix given, the columns “<em>Temperature_A01</em>“ and “<em>Vibration_A01</em>“ in the CSV Listener can be matched to the columns “<em>Temperature</em>“ and “<em>Vibration</em>“ in the SQL Server Writer Agent.  </p>
+<p>In the images below, “<em>_A01</em>” is specified as the postfix. Based on the postfix given, the columns “<em>Temperature_A01</em>“ and “<em>Vibration_A01</em>“ in the CSV Listener can be matched to the columns “<em>Temperature</em>“ and “<em>Vibration</em>“ in the SQL Server Writer Agent.</p>
 <p><img src="images/image-1405.png" alt=""></p>
 <p><img src="images/image-1398.png" alt=""></p>
 <p>The <strong>Expression</strong> option allows you to use a regular expression to match the columns, for example,</p>
@@ -166,7 +166,7 @@
 <li>In the file uploaded to the CSV Listener Agent, there is a column named “<em>Device_Temperature_Fahrenheit</em>“</li>
 <li>In the table referenced in the SQL Server Writer Agent configurations, there is a column named “<em>Temperature</em>“</li>
 </ul>
-<p>In the images below, “<em>Device_$1_Fahrenheit</em>” is used as the regular expression. Based on this expression, the column “<em>Device_Temperature_Fahrenheit</em>” in the CSV listener is mapped to the column “<em>Temperature</em>” in the SQL Server Writer Agent.  </p>
+<p>In the images below, “<em>Device_$1_Fahrenheit</em>” is used as the regular expression. Based on this expression, the column “<em>Device_Temperature_Fahrenheit</em>” in the CSV listener is mapped to the column “<em>Temperature</em>” in the SQL Server Writer Agent.</p>
 <p><img src="images/image-1094.png" alt=""></p>
 <p><img src="images/image-1041.png" alt=""></p>
 <h4 id="show-unmapped"><strong>Show Unmapped</strong></h4>

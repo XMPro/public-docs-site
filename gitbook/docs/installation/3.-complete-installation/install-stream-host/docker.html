@@ -94,14 +94,14 @@ The Keys should be set as environment variables on the running Stream Host Conta
 </code></pre>
 <h2 id="images">Images</h2>
 <h3 id="image-tags">Image Tags</h3>
-<p>All images are tagged with the release version number, starting from <code>4.4.2</code>. For example, use a version tag to reference the Stream Host for v4.4.2: </p>
+<p>All images are tagged with the release version number, starting from <code>4.4.2</code>. For example, use a version tag to reference the Stream Host for v4.4.2:</p>
 <pre><code>xmpro.azurecr.io/stream-host:4.4.2
 </code></pre>
 <p>The <code>latest</code> tag identifies the most recent XMPro Platform release version number, for example:</p>
 <pre><code>xmpro.azurecr.io/stream-host:latest
 </code></pre>
 <p>{% hint style=&quot;warning&quot; %}
-Using the <code>latest</code> tag stores a copy of the image on your system. This cached version may not be the latest release if a newer release has since been published. </p>
+Using the <code>latest</code> tag stores a copy of the image on your system. This cached version may not be the latest release if a newer release has since been published.</p>
 <p>We recommend specifying the specific version or re-pulling the image if a newer release has occurred since your last Stream Host docker install.
 {% endhint %}</p>
 <h3 id="image-flavors"><strong>Image Flavors</strong></h3>
@@ -110,7 +110,7 @@ Using the <code>latest</code> tag stores a copy of the image on your system. Thi
 <h3 id="creating-a-custom-image">Creating a Custom Image</h3>
 <p>You may need a Stream Host that has capabilities that differ from the available <a href="docker.html#image-flavours">image flavors</a> such as additional Python modules (e.g. via pip).</p>
 <h4 id="add-additional-python-modules">Add additional Python modules</h4>
-<p>The docker image can be used to create a custom stream-host with additional Python modules installed. Use <code>xmprocontrib.azurecr.io/sh-alpine-python:latest</code> as the base image for python workloads. </p>
+<p>The docker image can be used to create a custom stream-host with additional Python modules installed. Use <code>xmprocontrib.azurecr.io/sh-alpine-python:latest</code> as the base image for python workloads.</p>
 <p><em>Example requirements.txt file</em></p>
 <pre><code>numpy
 </code></pre>

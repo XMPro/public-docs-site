@@ -168,7 +168,7 @@ Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data 
 </table>
 <p><img src="../.gitbook/assets/image%20(376).png" alt=""></p>
 <h3 id="publish-and-unpublish-data-streams">Publish and Unpublish Data Streams</h3>
-<p>On the Collections page, click <em>More</em> and <em>Data Streams</em> to view a list of all Data Streams that are using a given Collection. Here you can directly unpublish or publish a Data Stream. </p>
+<p>On the Collections page, click <em>More</em> and <em>Data Streams</em> to view a list of all Data Streams that are using a given Collection. Here you can directly unpublish or publish a Data Stream.</p>
 <p>As an Admin, this is useful if you need to unpublish a Data Stream and you don't have access to it. See the <a href="../how-tos/publish/admin-unpublish-override.md">How to Admin Unpublish Override</a> article for more details.</p>
 <p><img src="../.gitbook/assets/PivotUpdated_Collection.png" alt=""></p>
 <h2 id="finding-collections">Finding Collections</h2>
@@ -254,9 +254,9 @@ Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data 
 <li>The Remote Receiver for Collection_B needs to be set to MQTT and the broker address needs to be specified.</li>
 <li>The Remote Publisher for Collection_B needs to be set to MQTT and the broker address needs to be specified.</li>
 </ul>
-<p>When the stream is published now, the data simulated by ES_1 will be published to MQTT, which will enable the engine to get the data EP_1 expects by listening for it on MQTT. Thus, data flow between ES_1 and EP_1 has been established. </p>
+<p>When the stream is published now, the data simulated by ES_1 will be published to MQTT, which will enable the engine to get the data EP_1 expects by listening for it on MQTT. Thus, data flow between ES_1 and EP_1 has been established.</p>
 <p><img src="../.gitbook/assets/image%20(653).png" alt=""></p>
-<p>The below image is an example of the configuration for <em>Collection_B</em>. </p>
+<p>The below image is an example of the configuration for <em>Collection_B</em>.</p>
 <p><img src="../.gitbook/assets/image%20(1457).png" alt=""></p>
 <h2 id="connection-profiles">Connection Profiles</h2>
 <h3 id="overview-1">Overview</h3>
@@ -303,12 +303,12 @@ Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data 
 <p><img src="../.gitbook/assets/CollectionsStreamHosts_4.png" alt=""></p>
 <h2 id="stream-host-installation">Stream Host Installation</h2>
 <p>To install a Stream Host, <a href="../how-tos/stream-host.html#how-to-install-a-stream-host">please refer to these instructions</a>.</p>
-<h2 id="set-log-level-">Set Log Level </h2>
+<h2 id="set-log-level">Set Log Level</h2>
 <p>The Log Level determines the type of information or level of detail that will be logged. The two Log Levels are Trace and Info.</p>
 <h3 id="info">Info</h3>
-<p>The Info Log level is the default Log Level. This will only log <em>Info</em> level messages or logs, which include details on when a Stream Host is starting or stopping. Any errors related to Connections or the Stream Host itself will also be logged at this level. </p>
+<p>The Info Log level is the default Log Level. This will only log <em>Info</em> level messages or logs, which include details on when a Stream Host is starting or stopping. Any errors related to Connections or the Stream Host itself will also be logged at this level.</p>
 <h3 id="trace">Trace</h3>
-<p>The Trace Log level will log more detailed messages and errors about the Data Stream or specific Agents themselves. This is very useful for debugging as it can log information about what is happening inside the code itself, such as which methods are being called and when. Using the Trace Log Level for a long period of time can take up a lot of space on the hard drive. Selecting the Trace Log Level will log both <em>Trace</em> and <em>Info</em> Level Logs. </p>
+<p>The Trace Log level will log more detailed messages and errors about the Data Stream or specific Agents themselves. This is very useful for debugging as it can log information about what is happening inside the code itself, such as which methods are being called and when. Using the Trace Log Level for a long period of time can take up a lot of space on the hard drive. Selecting the Trace Log Level will log both <em>Trace</em> and <em>Info</em> Level Logs.</p>
 <p><img src="../.gitbook/assets/image%20(868).png" alt=""></p>
 <h2 id="stream-host-rank">Stream Host Rank</h2>
 <p>All the Stream Hosts contained in a Collection will be used to run the Data Streams associated with that Collection. However, you can choose which Stream Host should be responsible for getting the configurations of Non-Virtual agents. The rank given to a Stream Host defines what preference the Stream Host will be given in such a scenario. The Stream Host with the lowest rank will be picked by the system. All Stream Hosts will always have a default rank value of 0.</p>
@@ -320,7 +320,7 @@ Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data 
 <li>SQL Server Writer</li>
 </ul>
 <p>The purpose of this Data Stream is to get temperature readings from a sensor on a machine, filter the readings that are higher than 120°C and write these values to a table in a SQL Server database. All three agents are configured to use Stream Hosts in the “<em>Mine 09</em>” Collection to run (see image below).</p>
-<p>However, to get the user settings for the SQL Server Writer Action Agent, which is a Non-Virtual Agent, Data Stream Designer will pick and use the first Stream Host available. This can be changed by setting the rank of the Stream Host you want to use to be lower than the other Stream Hosts that are available.  </p>
+<p>However, to get the user settings for the SQL Server Writer Action Agent, which is a Non-Virtual Agent, Data Stream Designer will pick and use the first Stream Host available. This can be changed by setting the rank of the Stream Host you want to use to be lower than the other Stream Hosts that are available.</p>
 <p><img src="../.gitbook/assets/CollectionsStreamHosts_5.png" alt=""></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2018/12/appsettings-file-1.png" alt=""></p>
 <h2 id="further-reading">Further Reading</h2>

@@ -129,7 +129,7 @@ A template is a JSON representation of all the controls and their layout that wi
 </code></pre>
 <p>Before a template is rendered on the screen, or if a postback occurs on any control in the template, the method below would be called to allow the Agent an opportunity to make any necessary runtime changes to the template, for example, verifying user credentials, displaying all tables of a selected database in a drop-down list, etc. In this example, no changes are being made to the template but, if needed, they can be added to the <em><strong>todo</strong></em> section.</p>
 <p>{% hint style=&quot;info&quot; %}
- For a postback to occur after a user navigates out of a setting field, the <em>Postback</em> property needs to be set to <em>true</em> when packaging the Agent.
+For a postback to occur after a user navigates out of a setting field, the <em>Postback</em> property needs to be set to <em>true</em> when packaging the Agent.
 {% endhint %}</p>
 <pre><code class="lang-csharp">public string GetConfigurationTemplate(string template, IDictionary&lt;string, string&gt; parameters)
 {
@@ -189,8 +189,8 @@ return errors.ToArray();
 <pre><code class="lang-csharp">void Start()
 </code></pre>
 <h3 id="destroy">Destroy</h3>
-<p>Each Agent needs to implement a <em>Destroy</em> method, which will be invoked if the <em>Create</em> method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start. </p>
-<p>Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime. </p>
+<p>Each Agent needs to implement a <em>Destroy</em> method, which will be invoked if the <em>Create</em> method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.</p>
+<p>Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.</p>
 <pre><code class="lang-csharp">void Destroy()
 </code></pre>
 <h3 id="publishing-events">Publishing Events</h3>
@@ -229,9 +229,9 @@ var decryptedVal = request.DecryptedValue;
 <pre><code class="lang-csharp">IEnumerable&lt;Attribute&gt; GetInputAttributes(string endpoint, IDictionary&lt;string, string&gt; parameters)
 </code></pre>
 <p>This method returns a collection consisting of Attribute, which is a type that represents the name and type of a given attribute in the incoming payload.</p>
-<h4 id="input-mapping-"><strong>Input Mapping</strong> </h4>
+<h4 id="input-mapping"><strong>Input Mapping</strong></h4>
 <p>In most cases, if an incoming payload structure is supposed to be different from what the parent is sending, i.e. the Input Payload has been specified above, the user will have to map parent outputs to the current Agent’s inputs. To enable this, mark the <em>Require Input Map</em> flag as true in the Stream Integration Manager when packaging the Agent.</p>
-<h4 id="endpoint-"><strong>Endpoint</strong> </h4>
+<h4 id="endpoint"><strong>Endpoint</strong></h4>
 <p>Each Agent can have a number of input and output <a href="../../concepts/agent/#endpoints">endpoints</a>. Endpoints are the points where incoming or outgoings arrows are connected. Each endpoint consists of a <em>Name&lt;String&gt;</em> attribute. You will be passed an endpoint name when queried for an <em>Input</em> payload definition. Be sure to specify the endpoint name when querying the parent’s output payload definition.</p>
 <h3 id="parent-outputs">Parent Outputs</h3>
 <p>All receiving Agents can query the structure of parent Agent outputs connected at a given endpoint by invoking an event, as demonstrated in the example below:</p>
@@ -245,7 +245,7 @@ var pOuts = args.ParentOutputs;
 </code></pre>
 <p>The <em>endpointName</em> parameter will identify which endpoint the events have been received at.</p>
 <p>{% hint style=&quot;info&quot; %}
- It is not guaranteed that the <em>Start</em> method will be invoked before the <em>Receive</em> method. Use the <em>Create</em> method to execute any logic that needs to be executed before the <em>Receive</em> method is called.
+It is not guaranteed that the <em>Start</em> method will be invoked before the <em>Receive</em> method. Use the <em>Create</em> method to execute any logic that needs to be executed before the <em>Receive</em> method is called.
 {% endhint %}</p>
 <h2 id="ipublisherror">IPublishError</h2>
 <p>An Agent can publish messages to an error endpoint by implementing the <em>IPublishesError</em> interface. An unhandled error in an Agent will be captured and error information will be published to the error endpoint.</p>
@@ -262,7 +262,7 @@ Error endpoints should be enabled in XMPro Stream Integration Manager when packa
 <h2 id="example">Example</h2>
 <p>The code below is an example of a basic MQTT Listener Agent. Take note of how the interfaces and methods have been implemented.</p>
 <p>{% hint style=&quot;info&quot; %}
- Please note that this example uses the <em>M2MqttDotnetCore 1.0.7</em> NuGet package.
+Please note that this example uses the <em>M2MqttDotnetCore 1.0.7</em> NuGet package.
 {% endhint %}</p>
 <pre><code class="lang-csharp">using Newtonsoft.Json.Linq;
 using System;

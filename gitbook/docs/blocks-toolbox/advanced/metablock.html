@@ -81,7 +81,7 @@ Only the <a href="metablock.html#presentation-file-html">Presentation File (HTML
 <h2 id="metablock-properties">Metablock Properties</h2>
 <h3 id="behavior">Behavior</h3>
 <h4 id="presentation-file-html">Presentation File (HTML)</h4>
-<p>Upload the HTML script file that will be rendered in your Metablock, which is used to create dynamic blocks that may display data from a <a href="metablock.html#data-source">Data Source</a> or from <a href="metablock.html#value-mapping-optional">Value Mapping</a>. </p>
+<p>Upload the HTML script file that will be rendered in your Metablock, which is used to create dynamic blocks that may display data from a <a href="metablock.html#data-source">Data Source</a> or from <a href="metablock.html#value-mapping-optional">Value Mapping</a>.</p>
 <pre><code class="lang-html">&lt;div class=&quot;foo&quot;&gt;bar&lt;/div&gt;
 </code></pre>
 <p>Alternatively, you can write your scripts in a single HTML file that includes both CSS and JavaScript. This approach is ideal for smaller applications.</p>
@@ -182,12 +182,12 @@ function onDataChanged(data, changes){
 </code></pre>
 <p>In this example, both the <code>data</code> and <code>changes</code> variables contain identical data, indicating that there are no updates. However, in a real-world scenario, the <code>changes</code> variable would capture any modifications to the initial data.</p>
 </details>
-<p><em>You can refer to a working example script that demonstrates an Autodesk Forge visualization</em> <a href="metablock.html#example-files"><em>here</em></a><em>.</em> </p>
+<p><em>You can refer to a working example script that demonstrates an Autodesk Forge visualization</em> <a href="metablock.html#example-files"><em>here</em></a><em>.</em></p>
 <h3 id="value">Value</h3>
 <h4 id="value-mapping">Value Mapping</h4>
 <p>If you wish to define value mappings for run-time use, you can configure user-defined key-value pairs. These values remain static during application rendering.</p>
 <p>The Value Mapping opens a new blade to setup the Key and Value configuration. The options for the Value Source are Static, <a href="../../how-tos/apps/use-dynamic-properties.html">Dynamic</a>, <a href="../../how-tos/apps/use-expression-properties.html">Expression</a> and <a href="../../concepts/variable.html">Variables</a>.</p>
-<p>When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the <strong>Encrypt</strong> checkbox to use an encrypted Server Variable for values like keys, secrets, or password. </p>
+<p>When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the <strong>Encrypt</strong> checkbox to use an encrypted Server Variable for values like keys, secrets, or password.</p>
 <p>Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a Websocket/MQTT message before being forwarded to the actual target.</p>
 <ul>
 <li><strong>Fetch/XHR Request -</strong> You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.</li>
@@ -225,12 +225,12 @@ Note: The password property will not have the actual value yet when it is mapped
 <figure><img src="../../.gitbook/assets/Metablock - Pump status display.png" alt=""><figcaption><p>Fig 2: Pump status display</p></figcaption></figure>
 <p>{% embed url=&quot;https://github.com/XMPro/meta-block-examples/tree/main/src/packages/pump-status-display&quot; %}</p>
 <h3 id="autodesk-visualize-2d--3d-models">Autodesk: visualize 2D &amp; 3D models</h3>
-<p>Access and visualize your engineering data and designs from the cloud using <a href="https://aps.autodesk.com/">Autodesk Platform Services</a> (APS, formerly Forge). </p>
+<p>Access and visualize your engineering data and designs from the cloud using <a href="https://aps.autodesk.com/">Autodesk Platform Services</a> (APS, formerly Forge).</p>
 <p>Leverage <a href="metablock.html#value-mapping-optional">Value Mapping</a> when embedding the <a href="https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/">APS Viewer</a> in XMPro App Pages to display interactive 2D and 3D views of your designs.</p>
 <p><strong>Note</strong>: This is a simple example to demonstrate the APS Viewer API using an unauthenticated repository. Refer to the authenticated use case for a more complex example that includes security measures for credentials.</p>
 <figure><img src="../../.gitbook/assets/autodesk-forge-viewer-img.png" alt=""><figcaption><p>Fig 3: Autodesk Platform Services Viewer example without authentication</p></figcaption></figure>
 <p>{% embed url=&quot;https://github.com/XMPro/meta-block-examples/tree/main/src/packages/aps-view-basic&quot; %}</p>
-<h3 id="autodesk-visualize-2d--3d-models-with-authentication-">Autodesk: Visualize 2D &amp; 3D models with authentication </h3>
+<h3 id="autodesk-visualize-2d--3d-models-with-authentication">Autodesk: Visualize 2D &amp; 3D models with authentication</h3>
 <p>When authentication is needed to dynamically load 2D and 3D views of your designs using the <a href="https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/">APS Viewer</a>. We could utilize a Connector or the Value Mapping and use server variables for the credentials. This eliminates the need for hardcoded credentials while maintaining secure access to the visualization platform, <a href="https://aps.autodesk.com/">Autodesk Platform Services</a> (APS, formerly Forge). See the following Metablock examples on how to use these methods.</p>
 <h4 id="autodesk-authentication-using-connector">Autodesk: Authentication using Connector</h4>
 <p>Leverage the <a href="https://xmpro.gitbook.io/rest-api-connector/">REST API Connector</a> to get Token from the authentication service and the <a href="metablock.html#data-source">Data Source</a> to pass the token to the Metablock.</p>
@@ -529,7 +529,7 @@ Link App Files Resources Example
 <p>{% hint style=&quot;warning&quot; %}
 <strong>Note:</strong> Displaying the Metablock may take some time since it needs to finish loading all referenced App File resources before it is shown on the Application. Avoid referencing heavy files from the App Files and use external resources instead.
 {% endhint %}</p>
-<p>You can also dynamically load JavaScript files but only for external resources and not from the App Files. </p>
+<p>You can also dynamically load JavaScript files but only for external resources and not from the App Files.</p>
 <pre><code class="lang-javascript">function loadScript(url) {
     return new Promise((resolve, reject) =&gt; {
         const script = document.createElement('script');

@@ -77,7 +77,7 @@
 <h2 id="register-application">Register application</h2>
 <p>Start by registering a new application in Azure AD by following <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app">these</a> instructions.</p>
 <h2 id="copy-application-client-id">Copy application (client) ID</h2>
-<p>Immediately after registering your application, an overview page will be opened for the new application. A unique application (client) ID would have been assigned to the application. </p>
+<p>Immediately after registering your application, an overview page will be opened for the new application. A unique application (client) ID would have been assigned to the application.</p>
 <p>{% hint style=&quot;danger&quot; %}
 <strong>Warning:</strong> Copy this ID. You will add it in Subscription Manager’s <em>web.config</em> file shortly.
 {% endhint %}</p>
@@ -86,7 +86,7 @@
 <p>Next, create a secret for Subscription Manager. Follow the steps below:</p>
 <ol>
 <li>On the left, click on <em>Certificates &amp; secrets.</em></li>
-<li>Click on <em>New client secret.</em> </li>
+<li>Click on <em>New client secret.</em></li>
 <li>Add a description for your new client secret.</li>
 <li>Choose a duration.</li>
 <li>Click <em>Add.</em></li>
@@ -94,18 +94,18 @@
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/07/add-secret-1-1.png" alt=""></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/07/add-secret-2-2.png" alt=""></p>
 <p>{% hint style=&quot;info&quot; %}
-Both the application client ID and the secret need to be added to Subscription Manager’s <em>web.config</em> file. 
+Both the application client ID and the secret need to be added to Subscription Manager’s <em>web.config</em> file.
 {% endhint %}</p>
 <ol start="6">
 <li>Navigate to the IIS location where Subscription Manager has been installed.</li>
-<li>Open the file <em>web.config</em> file. </li>
-<li>Scroll down to the “<em>xmpro</em>” section. </li>
+<li>Open the file <em>web.config</em> file.</li>
+<li>Scroll down to the “<em>xmpro</em>” section.</li>
 </ol>
 <p>{% hint style=&quot;info&quot; %}
 This section might have to be decrypted, for which you can find instructions <a href="https://docs.xmpro.com/knowledge-base-2/how-to-encrypt-and-decrypt-a-web-config-file/">here</a>.
 {% endhint %}</p>
 <ol start="9">
-<li>Add the application (client) ID that you copied earlier to the <code>clientId</code> attribute of the <code>azureAD</code> element </li>
+<li>Add the application (client) ID that you copied earlier to the <code>clientId</code> attribute of the <code>azureAD</code> element</li>
 <li>Copy the secret and add it to the <em>web.config</em>.</li>
 </ol>
 <figure><img src="../../../.gitbook/assets/SSO_AzureAD_web_config_clientId_and_key.png" alt=""><figcaption></figcaption></figure>
@@ -136,7 +136,7 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 </table>
 <h2 id="authentication">Authentication</h2>
 <ol start="12">
-<li>Copy the baseUrl value in the <em>web.config</em> - you will need it later in this guide. </li>
+<li>Copy the baseUrl value in the <em>web.config</em> - you will need it later in this guide.</li>
 </ol>
 <figure><img src="../../../.gitbook/assets/SSO_AzureAD_web_config_baseUrl.png" alt=""><figcaption></figcaption></figure>
 <ol start="13">
@@ -149,14 +149,14 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 </ul>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/07/authentication-4.png" alt=""></p>
 <ol start="14">
-<li> On the Authentication page, scroll down until you see “<em>Advanced Settings</em>“. </li>
+<li>On the Authentication page, scroll down until you see “<em>Advanced Settings</em>“.</li>
 <li>Select “<em>ID tokens</em>” and click <em>Save</em>.</li>
 </ol>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/07/authentication-advanced-settings.png" alt=""></p>
 <h2 id="api-permissions">API permissions</h2>
 <ol start="16">
-<li>Select <em>API permissions</em> on the left-hand menu. </li>
-<li>Make sure the permissions set on the application correspond to the image below. </li>
+<li>Select <em>API permissions</em> on the left-hand menu.</li>
+<li>Make sure the permissions set on the application correspond to the image below.</li>
 </ol>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/07/permissions-1.png" alt=""></p>
 <h2 id="sync-azure-ad-role-to-sms-business-role">Sync Azure AD Role to SM's Business Role</h2>
@@ -164,7 +164,7 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 <ol>
 <li>Get the desired user claim name from Azure AD.</li>
 <li>Navigate to the IIS location where Subscription Manager has been installed.</li>
-<li>Open the <em>web.config</em> file. </li>
+<li>Open the <em>web.config</em> file.</li>
 <li>Add the claim name to the &quot;businessRoleClaim&quot; attribute in the &quot;identityProviders&quot; tag.<br>
 <code>&lt;identityProviders businessRoleClaim=&quot;PUT THE CLAIM NAME HERE&quot;&gt;</code></li>
 <li>Save the file and restart the Subscription Manager service.</li>

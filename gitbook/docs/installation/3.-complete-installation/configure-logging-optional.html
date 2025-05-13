@@ -75,7 +75,7 @@
 
 <p>{% embed url=&quot;https://youtu.be/N5f1_4F6g84&quot; %}</p>
 <h2 id="overview">Overview</h2>
-<p>Application logging refers to recording and storing information about the events and activities that occur within a software application. It involves capturing relevant data, such as error messages, warnings, user interactions, and system events, and storing them in a log file or database. </p>
+<p>Application logging refers to recording and storing information about the events and activities that occur within a software application. It involves capturing relevant data, such as error messages, warnings, user interactions, and system events, and storing them in a log file or database.</p>
 <p>Application logging is essential for troubleshooting and debugging, as it helps identify and analyze issues that may arise during the application's execution. It also provides valuable insights into the application's performance, usage patterns, and security.</p>
 <p><a href="https://serilog.net/">Serilog</a> is the diagnostic logging library used in the XMPro suite, and the following logging outputs are supported:</p>
 <ul>
@@ -91,7 +91,7 @@ Subscription Manager currently only supports logging to file.
 <p>{% hint style=&quot;info&quot; %}
 From v4.4.4., logging for all products is always enabled and the feature flag does not need to be enabled. Lightweight logging to file is active by default and we recommend that it is reviewed.
 {% endhint %}</p>
-<p>Repeat these steps for any of the XMPro products (Application Designer, Data Stream Designer, and AI XMPro) - except Subscription Manager and Stream Hosts. </p>
+<p>Repeat these steps for any of the XMPro products (Application Designer, Data Stream Designer, and AI XMPro) - except Subscription Manager and Stream Hosts.</p>
 <ol>
 <li>Navigate to the IIS location where the XMPro product has been installed.</li>
 <li>Open the <em>appsettings.json</em> file.</li>
@@ -221,7 +221,7 @@ The above example provides for the following:</p>
 </li>
 </ul>
 <h2 id="application-insights">Application Insights</h2>
-<p>This utilizes the Serilog application insights sink. See <a href="https://github.com/serilog-contrib/serilog-sinks-applicationinsights">Serilog sinks file for Application Insights</a> for a complete set of configuration options. </p>
+<p>This utilizes the Serilog application insights sink. See <a href="https://github.com/serilog-contrib/serilog-sinks-applicationinsights">Serilog sinks file for Application Insights</a> for a complete set of configuration options.</p>
 <p>Below are the steps for an <em><strong>example</strong></em> of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI XMPro:</p>
 <ol>
 <li>Open the <em>appsettings.json</em> file.</li>
@@ -243,7 +243,7 @@ The above example provides for the following:</p>
 }
 </code></pre>
 <h2 id="application-insights-plus-telemetry">Application Insights plus Telemetry</h2>
-<p>This utilizes the Serilog application insights sink to write events to Microsoft Azure Application Insights and collect valuable Telemetry data. </p>
+<p>This utilizes the Serilog application insights sink to write events to Microsoft Azure Application Insights and collect valuable Telemetry data.</p>
 <p>Below are the steps for an <em><strong>example</strong></em> of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI XMPro:</p>
 <ol>
 <li>Set <code>enableApplicationInsightsTelemetry</code> in the <code>featureFlags</code> object to <em>true -</em> the same as you already did <a href="configure-logging-optional.html#enable-logging">here</a> for <code>enableLogging</code>.</li>
@@ -258,7 +258,7 @@ The above example provides for the following:</p>
 }
 </code></pre>
 <h2 id="datadog">Datadog</h2>
-<p>This utilizes the Serilog datadog sink. See <a href="https://github.com/DataDog/serilog-sinks-datadog-logs">Serilog Sinks File for Datadog</a> for a complete set of configuration options. </p>
+<p>This utilizes the Serilog datadog sink. See <a href="https://github.com/DataDog/serilog-sinks-datadog-logs">Serilog Sinks File for Datadog</a> for a complete set of configuration options.</p>
 <p>Below are the steps for an <em><strong>example</strong></em> of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI:</p>
 <ol>
 <li>Open the <em>appsettings.json</em> file.</li>

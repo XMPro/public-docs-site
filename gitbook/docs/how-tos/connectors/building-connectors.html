@@ -106,7 +106,7 @@ A template is a JSON representation of all the controls and their layout that wi
 </code></pre>
 <p>Before a template is rendered on the screen, or if a postback occurs on any control in the template, the method below would be called to allow the Connector an opportunity to make any necessary runtime changes to the template, for example, verifying user credentials, displaying all tables of a selected database in a drop-down list, etc. In this example, no changes are being made to the template, but they can be added to the <em><strong>todo</strong></em> section if needed.</p>
 <p>{% hint style=&quot;info&quot; %}
- For a postback to occur after a user navigates out of a setting field, the <em>Postback</em> property needs to be set to <em>true</em> when packaging the Connector.
+For a postback to occur after a user navigates out of a setting field, the <em>Postback</em> property needs to be set to <em>true</em> when packaging the Connector.
 {% endhint %}</p>
 <pre><code class="lang-csharp">public string GetConfigurationTemplate(string template, IDictionary&lt;string, string&gt; parameters)
 {
@@ -136,8 +136,8 @@ return settings.ToString();
 <p>The Connector must provide a list of the Entity's properties, which describe its key, output schema, and optional inputs. To achieve this, implement the following method:</p>
 <pre><code class="lang-csharp">public Entity GetEntity(string entityId, IDictionary&lt;string, string&gt; parameters)
 </code></pre>
-<p>This method returns the Entity with a collection of properties for the selected Entity's entityId, which is passed as a parameter to this method. </p>
-<p>Most properties will be Output properties, which describe the Entity's data, and are indicated by setting <strong>key</strong> and <strong>isParameter</strong> to <strong>false</strong>. For example, this String property named <em>OutputString:</em> </p>
+<p>This method returns the Entity with a collection of properties for the selected Entity's entityId, which is passed as a parameter to this method.</p>
+<p>Most properties will be Output properties, which describe the Entity's data, and are indicated by setting <strong>key</strong> and <strong>isParameter</strong> to <strong>false</strong>. For example, this String property named <em>OutputString:</em></p>
 <p>{% code overflow=&quot;wrap&quot; %}</p>
 <pre><code class="lang-csharp">new Property(&quot;OutputString&quot;, Settings.Enums.Types.String, key: false, isParameter: false) 
 </code></pre>
@@ -231,7 +231,7 @@ The second overload is supported on App Designer v4.3.5 and XMPro.Integration.Fr
 </code></pre>
 <p>{% endcode %}</p>
 <h2 id="iconnectorerror">IConnectorError</h2>
-<p>A Connector can publish messages to the <a href="../apps/check-connector-logs.html">Connector Logs</a> by implementing the <em>IConnectorError</em> interface. </p>
+<p>A Connector can publish messages to the <a href="../apps/check-connector-logs.html">Connector Logs</a> by implementing the <em>IConnectorError</em> interface.</p>
 <p>To log the error, your Connector should invoke the <em>OnConnectorError</em> event with the error information passed as arguments:</p>
 <p>{% code overflow=&quot;wrap&quot; %}</p>
 <pre><code class="lang-csharp">this.OnConnectorError?.Invoke(this, new OnErrorArgs(ConnectionId, Timestamp, Source, Error, DetailedError, Data));
@@ -239,7 +239,7 @@ The second overload is supported on App Designer v4.3.5 and XMPro.Integration.Fr
 <p>{% endcode %}</p>
 <h2 id="itsaconnector">ITSAConnector</h2>
 <p>v4.4.12: replaced the ITSCConnector interface, which is now deprecated.</p>
-<p>The <em>ITSAConnector</em> interface notifies the <a href="../../blocks-toolbox/visualizations/time-series-analysis.html#connector-selection">Time Series Analysis</a> to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets. </p>
+<p>The <em>ITSAConnector</em> interface notifies the <a href="../../blocks-toolbox/visualizations/time-series-analysis.html#connector-selection">Time Series Analysis</a> to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.</p>
 <p>When a Connector that implements the <em>ITSAConnector</em> interface is used with a Time Series Analysis Block, the Block expects the Connector to implement a specialized structure for data inputs and outputs:</p>
 <ol>
 <li>Implement Date Buckets by organizing the data into separate partitions based on specific time intervals, such as days, weeks, or months. Below is a of sample bucketed data with an interval of 2 hours:</li>

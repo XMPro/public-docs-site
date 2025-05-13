@@ -94,7 +94,7 @@
 <p>XMPro has a <a href="https://documentation.xmpro.com/resources/integrations#connectors">library of Connectors</a> available to use. To acquire any of these Connectors, please contact your XMPro sales representative or write to us at <a href="mailto:support@xmpro.com">support@xmpro.com</a>. Alternatively, since Connectors can be written by anyone that has some knowledge of programming and has access to the required technologies, you can write your own Connector by following <a href="../../how-tos/connectors/building-connectors.html">these</a> instructions.</p>
 <h2 id="connection">Connection</h2>
 <p>The parameters defined in a Connection allow the App to connect to a source of data like a SQL Database and expose the entities as Data Sources within the Page. Connection parameters can include credentials such as a username, password, path, URL, or location identifier that you can use to make a remote connection to the Data Source. For example, connection parameters to connect to an SQL Database would include the Server Name, Authentication type, Username, and password.</p>
-<p>A new App will have the Recommendations Connector and the Data Stream Connector by default. Connections are managed in an App by clicking the App Data command. Any Connections that were created with an older version of a Connector will have an upgrade icon. </p>
+<p>A new App will have the Recommendations Connector and the Data Stream Connector by default. Connections are managed in an App by clicking the App Data command. Any Connections that were created with an older version of a Connector will have an upgrade icon.</p>
 <p>![](/docs/images/image (478).png&gt;)</p>
 <p>The properties of a Connection are dependent on the type of Connector. To see the properties of a Connection, click the Connector in the list of Connectors above.</p>
 <h3 id="upgrade-the-connection">Upgrade the Connection</h3>
@@ -104,15 +104,15 @@
 <p>Data Sources are a link to a specific Entity in a Connection's Entities, for example, a table in a SQL database. Data Sources are managed through the Page Data tab of a Page. You can add a new Data Source by clicking on the + button to the right of the Data Sources heading, and edit a Data Source by clicking on the pencil button to the right of the Data Source.</p>
 <p>If the Connection has the ability to have Live Data Updates, the checkbox will be visible. If checked, the Data Source will automatically update the Blocks when new data becomes available without refreshing the Page.</p>
 <h3 id="primary-key">Primary Key</h3>
-<p>A primary key is the column or columns that contain values that uniquely identify each row in a table. Without a primary key, we cannot update, insert or delete data in the table. The Primary Key is a required field and cannot be empty. If the selected Entity has a Primary Key it will be specified automatically in the Primary Key field otherwise it has to be specified manually by selecting one or multiple columns from the list. </p>
+<p>A primary key is the column or columns that contain values that uniquely identify each row in a table. Without a primary key, we cannot update, insert or delete data in the table. The Primary Key is a required field and cannot be empty. If the selected Entity has a Primary Key it will be specified automatically in the Primary Key field otherwise it has to be specified manually by selecting one or multiple columns from the list.</p>
 <h3 id="data-source-validation">Data Source Validation</h3>
 <p>![](/docs/images/Primary Key explained.png&gt;)</p>
-<p>A Data Source may become invalid due to several issues. The most common ones can be expired passwords, deleted entity or unreachable servers. If a Data Source becomes invalid a count will be visible on the Page Data tab to notify the user. </p>
+<p>A Data Source may become invalid due to several issues. The most common ones can be expired passwords, deleted entity or unreachable servers. If a Data Source becomes invalid a count will be visible on the Page Data tab to notify the user.</p>
 <p><img src="../images/PageValidation1.png" alt="images/PageValidation1.png"></p>
-<p>If you click the Page Data tab of the page, an exclamation mark will be visible in front of the Data Source name and hovering over the exclamation mark will show a detailed error.  </p>
+<p>If you click the Page Data tab of the page, an exclamation mark will be visible in front of the Data Source name and hovering over the exclamation mark will show a detailed error.</p>
 <p>![](/docs/images/PageValidation2 (1).png&gt;)</p>
 <h2 id="data-source-in-the-page-blocks">Data Source in the Page Blocks</h2>
-<p>A Data Source may be attached to many Blocks. Blocks that allow Data Sources to be attached have a section in Block Properties called Data Source. </p>
+<p>A Data Source may be attached to many Blocks. Blocks that allow Data Sources to be attached have a section in Block Properties called Data Source.</p>
 <p>If a Data Source is applied to a Block, depending on what type of Block it is, it will either repeat itself or repeat its child elements per the number of rows of the Data Source or use the data to populate its items or visualization.</p>
 <p>For example:</p>
 <ol>

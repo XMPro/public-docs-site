@@ -75,69 +75,69 @@
 
 <p>In this article, we will look at how to set up AD FS so that it can be used as an external identity provider for Subscription Manager, allowing single sign-on capability between AD FS and Subscription Manager.</p>
 <p>Follow the steps below:</p>
-<h2 id="iis-">IIS </h2>
-<p>  1. Navigate to the location in IIS where Subscription Manager was installed.</p>
+<h2 id="iis">IIS</h2>
+<p>1. Navigate to the location in IIS where Subscription Manager was installed.</p>
 <p>{% hint style=&quot;info&quot; %}
 You can right-click on the application name in IIS and choose “<em>Explore</em>“.
 {% endhint %}</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/open-sub-mgr-app.png" alt=""></p>
-<p>  2. Open the <em>web.config</em> file.</p>
+<p>2. Open the <em>web.config</em> file.</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/open-web-config.png" alt=""></p>
-<p>  3. Scroll down to the “<em>xmpro</em>” section. </p>
+<p>3. Scroll down to the “<em>xmpro</em>” section.</p>
 <p>{% hint style=&quot;info&quot; %}
 It might be encrypted, which will require you to decrypt it first. For instructions, please refer to the <a href="https://docs.xmpro.com/knowledge-base-2/how-to-encrypt-and-decrypt-a-web-config-file/">How to encrypt and decrypt a web.config file</a> Knowledge Base article.
 {% endhint %}</p>
-<p>  4. Under the “<em>identityProviders</em>” element, add a new element called “<em>adfs</em>”.</p>
-<p>  5. Specify the metadata address of your AD FS, as per the image below:</p>
+<p>4. Under the “<em>identityProviders</em>” element, add a new element called “<em>adfs</em>”.</p>
+<p>5. Specify the metadata address of your AD FS, as per the image below:</p>
 <figure><img src="../../../.gitbook/assets/SSO_ADFS_web_config_metadata_address.png" alt=""><figcaption></figcaption></figure>
 <p>{% hint style=&quot;info&quot; %}
-Set the correct URL for the metadataAddress value. An example of how the URL might look is “_<a href="https://adfs.domain.com/federationmetadata/2007-06/federationmetadata.xml_%E2%80%9C.">https://adfs.domain.com/federationmetadata/2007-06/federationmetadata.xml_“.</a> </p>
-<p>Verify your URL by browsing to it in a browser. 
+Set the correct URL for the metadataAddress value. An example of how the URL might look is “_<a href="https://adfs.domain.com/federationmetadata/2007-06/federationmetadata.xml_%E2%80%9C">https://adfs.domain.com/federationmetadata/2007-06/federationmetadata.xml_“</a>.</p>
+<p>Verify your URL by browsing to it in a browser.
 {% endhint %}</p>
-<p>  6. Copy the “<em>baseUrl</em>” value in the web.config - you will need it later in this guide.</p>
+<p>6. Copy the “<em>baseUrl</em>” value in the web.config - you will need it later in this guide.</p>
 <figure><img src="../../../.gitbook/assets/SSO_AzureAD_web_config_baseUrl.png" alt=""><figcaption></figcaption></figure>
 <p>{% hint style=&quot;danger&quot; %}
 <strong>Warning</strong>: you will use this value to create a relying party trust between the Subscription Manager application and AD FS
 {% endhint %}</p>
 <h2 id="server-manager">Server Manager</h2>
-<p>  1. Log on to your AD FS server and go to Tools –&gt; AD FS Management </p>
+<p>1. Log on to your AD FS server and go to Tools –&gt; AD FS Management</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/open-ad-fs-management.png" alt=""></p>
-<h3 id="relying-party-trust-">Relying Party Trust </h3>
-<p> 2. Click <em>Add Relying Party Trust</em></p>
+<h3 id="relying-party-trust">Relying Party Trust</h3>
+<p>2. Click <em>Add Relying Party Trust</em></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/click-on-add-relying-trust.png" alt=""></p>
-<p>  3. Select <em>Claims aware</em> and click Start </p>
+<p>3. Select <em>Claims aware</em> and click Start</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/select-claims-aware.png" alt=""></p>
-<p>  4. Select <em>Enter data about the relying party manually</em> and click Next </p>
+<p>4. Select <em>Enter data about the relying party manually</em> and click Next</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/add-data-manually.png" alt=""></p>
-<p>  5. Choose a display name and click Next and Next again </p>
+<p>5. Choose a display name and click Next and Next again</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/choose-a-display-name.png" alt=""></p>
-<p>  6. Select <em>Enable support for the WS-Federation Passive protocol</em>, add the URL and click Next</p>
+<p>6. Select <em>Enable support for the WS-Federation Passive protocol</em>, add the URL and click Next</p>
 <p>{% hint style=&quot;info&quot; %}
-This is the base URL you copied from the web.config file. 
+This is the base URL you copied from the web.config file.
 {% endhint %}</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/wsf-protocol.png" alt=""></p>
-<p>  7. Add the identifier for the application. Use the URL for Subscription Manager</p>
-<p>  8. Add the URL and click Next </p>
+<p>7. Add the identifier for the application. Use the URL for Subscription Manager</p>
+<p>8. Add the URL and click Next</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/unique-identifier.png" alt=""></p>
-<p>  9. Choose an access control policy and click Next. Continue to the last screen </p>
+<p>9. Choose an access control policy and click Next. Continue to the last screen</p>
 <p>{% hint style=&quot;info&quot; %}
 For this article, we are going to choose <em>Permit everyone</em>
 {% endhint %}</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/access-control-policy.png" alt=""></p>
-<h3 id="claims-issuance-policy--">Claims Issuance Policy  </h3>
-<p>10. Select <em>Configure claims issuance policy for this application</em> and finish </p>
+<h3 id="claims-issuance-policy">Claims Issuance Policy</h3>
+<p>10. Select <em>Configure claims issuance policy for this application</em> and finish</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/last-screen.png" alt=""></p>
-<p>  11. In the AD FS Management window, click <em>Edit Claim Issuance Policy…</em> and click <em>Add Rule</em> </p>
+<p>11. In the AD FS Management window, click <em>Edit Claim Issuance Policy…</em> and click <em>Add Rule</em></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/edit-claim-insurance-policy.png" alt=""></p>
-<p>  12. In the <em>Claim rule template</em> drop-down, select <em>Send LDAP Attributes as Claims</em> and click Next </p>
+<p>12. In the <em>Claim rule template</em> drop-down, select <em>Send LDAP Attributes as Claims</em> and click Next</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/LDAP.png" alt=""></p>
-<p>  13. Choose a name for the rule and map the claims   </p>
+<p>13. Choose a name for the rule and map the claims</p>
 <p><img src="../../../.gitbook/assets/Edit%20Rule.png" alt=""></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/Choose-a-name-for-the-rule.png" alt=""></p>
 <h2 id="login-to-subscription-manager-using-ad-fs">Login to Subscription Manager using AD FS</h2>
-<p>Now you should be ready. If you navigate to the Subscription Manager application, you will see the AD FS login option. Log in with your AD FS credentials. </p>
+<p>Now you should be ready. If you navigate to the Subscription Manager application, you will see the AD FS login option. Log in with your AD FS credentials.</p>
 <p>{% hint style=&quot;info&quot; %}
-You will be asked to link your account when you sign in for the first time. If so, fill in your information and click Link Account  
+You will be asked to link your account when you sign in for the first time. If so, fill in your information and click Link Account
 {% endhint %}</p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/add-adfs-credentials.png" alt=""></p>
 <p><img src="https://docs.xmpro.com/wp-content/uploads/2019/05/adfs-button.png" alt=""></p>

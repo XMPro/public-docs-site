@@ -84,18 +84,19 @@ It is recommended that you read the article listed below to improve your underst
 <h2 id="how-to-use-error-endpoints">How to Use Error Endpoints</h2>
 <p>To use an error endpoint, follow the steps below:</p>
 <ol>
-<li>Click on the red endpoint and drag the arrow to where you want to error data to flow. In this example, the error endpoints are going to be printed using an <em>Event Printer</em> Agent.</li>
+<li><p>Click on the red endpoint and drag the arrow to where you want to error data to flow. In this example, the error endpoints are going to be printed using an <em>Event Printer</em> Agent.</p>
+<p>2. Click on <em>Save</em>.<br>
+3. To view the error data, click on <em>Publish</em>.</p>
+</li>
 </ol>
-<p>    2. Click on <em>Save</em>.<br>
-    3. To view the error data, click on <em>Publish</em>.</p>
 <p><img src="../../.gitbook/assets/ER_1.png" alt=""></p>
 <p><img src="../../.gitbook/assets/ER_2.png" alt=""></p>
-<p>    4. Click on <em>Live View.</em><br>
-    5_._ Click on the Event Printer to display errors that occur during runtime.<br>
-    6. Click on Save.</p>
+<p>4. Click on <em>Live View.</em><br>
+5_._ Click on the Event Printer to display errors that occur during runtime.<br>
+6. Click on Save.</p>
 <p><img src="../../.gitbook/assets/ER_3.png" alt=""></p>
 <p>The data printed for the Error Endpoint includes the AgentID of the Agent that had the error, as well as the timestamp of when the error occurred. The message of the error is also printed. The exact data from the data points are also printed.</p>
-<p>Instead of using the Event Printer to print errors, Error Endpoints can also connect to actions that trigger at the time of the error. For example, the following will send an email to a configured email address if an error occurs. </p>
+<p>Instead of using the Event Printer to print errors, Error Endpoints can also connect to actions that trigger at the time of the error. For example, the following will send an email to a configured email address if an error occurs.</p>
 <p><img src="../../.gitbook/assets/ER_4.png" alt=""></p>
 <h2 id="handling-multiple-errors-from-error-endpoints">Handling multiple errors from Error Endpoints</h2>
 <p>A Union can be used to handle multiple errors at a time. To use the union Agent to do this, follow the steps below:</p>
@@ -103,8 +104,8 @@ It is recommended that you read the article listed below to improve your underst
 <li>Under the _Transformation A_gents, drag and drop a <em>Union</em> Agent onto the Data Stream.</li>
 </ol>
 <p><img src="../../.gitbook/assets/ER_5.png" alt=""></p>
-<p>    2. Connect the error endpoints of multiple Agents to the union.<br>
-    3. Add another Agent to deal with all the errors at the same time.</p>
+<p>2. Connect the error endpoints of multiple Agents to the union.<br>
+3. Add another Agent to deal with all the errors at the same time.</p>
 <p><img src="../../.gitbook/assets/ER_6.png" alt=""></p>
 
 </article>

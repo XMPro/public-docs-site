@@ -89,9 +89,9 @@
 
 <p>[!Video https://www.youtube.com/watch?v=7D1IpFmA-CQ]</p>
 <h2 id="overview">Overview</h2>
-<p>XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data. </p>
+<p>XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.</p>
 <h3 id="getting-started">Getting Started</h3>
-<p>XMPro Notebook is an embedded version of <a href="https://jupyter.org/">Jupyter</a> and can be accessed from the waffle menu on the top left navigation, and by navigating to &quot;AI&quot;. </p>
+<p>XMPro Notebook is an embedded version of <a href="https://jupyter.org/">Jupyter</a> and can be accessed from the waffle menu on the top left navigation, and by navigating to &quot;AI&quot;.</p>
 <p><img src="images/XMPro_Notebook_Waffle_Menu.png" alt="Fig 1: XMPro Notebook"></p>
 <h3 id="quickstart-guide">Quickstart Guide</h3>
 <p>Once opened there is a handy quick-start guide that acts as an introduction on how to use XMPro Notebook.</p>
@@ -106,7 +106,7 @@
 %chatgpt -k &quot;&lt;your ChatGPT api-key&gt;&quot;
 </code></pre>
 <h4 id="line-magic-chatgpt">Line magic: %chatgpt</h4>
-<p><em>Example input</em>: </p>
+<p><em>Example input</em>:</p>
 <pre><code class="lang-python">%chatgpt &quot;show a correlation plot for the iris dataset&quot;
 </code></pre>
 <p><em>Example output</em>:</p>
@@ -115,7 +115,7 @@ iris = sns.load_dataset('iris') corr = iris.corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm') plt.show()
 </code></pre>
 <h4 id="cell-magic-chatgpt">Cell magic: %%chatgpt</h4>
-<p><em>Example input</em>: </p>
+<p><em>Example input</em>:</p>
 <pre><code class="lang-python">%%chatgpt &quot;improve this plot example&quot;
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5] y = [5, 4, 3, 2, 1]
@@ -149,8 +149,8 @@ plt.show()
 <p><img src="images/AI_Overview_Copilot_Notebook.gif" alt="Fig 2: Cell magic to harness ChatGPT"></p>
 <h3 id="mlops">MLops</h3>
 <p>MLflow is a well-known open-source MLops platform that streamlines the machine learning lifecycle: to create instances of models and run them in a structured and organized manner.</p>
-<p>This example illustrates how to leverage the MLflow Python library to create an instance of a machine learning model and execute it within your MLflow environment. </p>
-<p><em>Example input</em>: </p>
+<p>This example illustrates how to leverage the MLflow Python library to create an instance of a machine learning model and execute it within your MLflow environment.</p>
+<p><em>Example input</em>:</p>
 <pre><code class="lang-python"># Importing necessary libraries
 from mlflow.models.signature import ModelSignature
 from mlflow.types.schema import ColSpec, Schema
@@ -214,7 +214,7 @@ Created version '1' of model 'LinearRegression'.
 <p>If any additional libraries are needed, the installation can be performed in the Notebook Cell. Below is an example command for a Python library:</p>
 <pre><code class="lang-python">pip install &lt;your library name&gt;
 </code></pre>
-<p>Please <a href="mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request">contact</a> XMPro if you would like to propose another library added to the set of defaults. </p>
+<p>Please <a href="mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request">contact</a> XMPro if you would like to propose another library added to the set of defaults.</p>
 <div class="WARNING">
 <h5>Warning</h5>
 <p>Any library you load is only valid for the session and will need to be reinstalled when a new session is created.</p>

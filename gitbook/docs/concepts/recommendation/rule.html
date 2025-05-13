@@ -76,7 +76,7 @@
 <p>A Rule defines the conditions for triggering a <a href="recommendation-alert.html">Recommendation Alert</a> and what the created Recommendation Alert should look like. Multiple Rules can also be grouped into one <a href="./">Recommendation</a>.</p>
 <p><img src="../../.gitbook/assets/image%20(20).png" alt=""></p>
 <h2 id="rule-logic">Rule Logic</h2>
-<p>Data sent from the selected Data Stream is passed through the Rule Logic and if the conditions created are met by the data, a new Recommendation Alert will be created. </p>
+<p>Data sent from the selected Data Stream is passed through the Rule Logic and if the conditions created are met by the data, a new Recommendation Alert will be created.</p>
 <p>You can add new conditions or groups by clicking the + button. Groups can be nested within each other to create advanced logic. In an &quot;And&quot; group, all the conditions must be true, and in an &quot;Or&quot; group, only one of the conditions must be true to trigger an Alert.</p>
 <p>As an example, in the following Rule Logic, both of the following must be true to trigger an Alert:</p>
 <ul>
@@ -89,7 +89,7 @@
 <h2 id="alert-ranking">Alert Ranking</h2>
 <p>The priority level that the Recommendation Alert will be created with. Priority level determines the order in which the Alerts will be displayed.</p>
 <h2 id="impact-metric">Impact Metric</h2>
-<p>The measurable impact of the business event detected by the Recommendation Rule. This will be shown on Alerts in the Recommendation Block in App Pages.  </p>
+<p>The measurable impact of the business event detected by the Recommendation Rule. This will be shown on Alerts in the Recommendation Block in App Pages.</p>
 <h2 id="enable-form">Enable Form</h2>
 <p>A flag that determines whether the Recommendation Alert will be created with a <a href="form.html">Form</a>.</p>
 <h2 id="select-form">Select Form</h2>
@@ -99,12 +99,12 @@
 <h2 id="additional-recommendation-management-column">Additional Recommendation Management Column</h2>
 <p>An additional column in the Recommendation Alerts grid. Any tag (starting with @) will be replaced with the value entered in the corresponding field in the Form.</p>
 <h2 id="resolution">Resolution</h2>
-<p>Resolution determines whether new data from the Data Stream will automatically resolve the Recommendation Alert if the Rule Logic is no longer true. </p>
-<p><strong>Manual Resolution:</strong> A user must manually resolve each Recommendation. </p>
+<p>Resolution determines whether new data from the Data Stream will automatically resolve the Recommendation Alert if the Rule Logic is no longer true.</p>
+<p><strong>Manual Resolution:</strong> A user must manually resolve each Recommendation.</p>
 <p><strong>Automatic Resolution:</strong> Recommendation auto resolves when trigger conditions are no longer true. This may impact performance, as it might continuously trigger and resolve a large number of Recommendations at a time if the data fluctuates frequently.</p>
 <h2 id="recurrence">Recurrence</h2>
 <p>Recurrence determines whether new data from the Data Stream will create new Recommendation Alerts if a Pending Recommendation Alert already exists and the Rule Logic is true.</p>
-<p>If the conditions created by the Rule Logic are met by the data, and if Recurrence is set to All Occurrences or First Occurrence and no Pending Alert exists, a new Recommendation Alert will be created. </p>
+<p>If the conditions created by the Rule Logic are met by the data, and if Recurrence is set to All Occurrences or First Occurrence and no Pending Alert exists, a new Recommendation Alert will be created.</p>
 <p><strong>First Occurrence:</strong> The current recommendation must be resolved before others can be triggered for the same rule.</p>
 <p><strong>All Occurrences:</strong> A new recommendation will be triggered every time the rule conditions are true.</p>
 <p>Recurrence will be disabled and be considered to be the <strong>First Occurrence</strong> if the Recommendation has <strong>Execution Order</strong> enabled.</p>
