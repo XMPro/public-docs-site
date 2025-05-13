@@ -51599,6 +51599,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "migration-tasks.md",
+      "output": {
+        ".html": {
+          "relative_path": "migration-tasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
