@@ -1520,19 +1520,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/agent/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/agent/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/agent/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/concepts/agent/virtual-vs-non-virtual-agents.md",
       "output": {
@@ -2373,19 +2360,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/application/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/application/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/application/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/concepts/application/variables-and-expressions.md",
       "output": {
@@ -2976,19 +2950,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/insights/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/insights/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/insights/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/concepts/landing-pages.md",
       "output": {
@@ -3189,32 +3150,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/recommendation/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/recommendation/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/recommendation/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/concepts/variable.md",
       "output": {
@@ -3330,19 +3265,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/concepts/xmpro-ai/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/xmpro-ai/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/xmpro-ai/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/xmpro-ai/toc.html"
         }
       },
       "version": ""
