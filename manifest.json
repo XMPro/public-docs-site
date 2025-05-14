@@ -2706,19 +2706,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/concepts/data-stream/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/concepts/data-stream/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/concepts/data-stream/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/concepts/data-stream/verifying-stream-integrity.md",
       "output": {
@@ -8313,19 +8300,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2010/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2010/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2010/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2011/benefits-of-bpm-v-10.md",
       "output": {
@@ -8406,19 +8380,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2011/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2011/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2011/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2012/copy-me.md",
       "output": {
@@ -8464,19 +8425,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2012/the-difference-between-eventbased-and-workflowbased-processes.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2012/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2012/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2012/toc.html"
         }
       },
       "version": ""
@@ -8542,19 +8490,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2013/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2013/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2013/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2014/copy-me.md",
       "output": {
@@ -8580,19 +8515,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2014/making-business-operations-more-intelligent.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2014/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2014/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2014/toc.html"
         }
       },
       "version": ""
@@ -8688,19 +8610,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2015/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2015/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2015/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2015/understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project.md",
       "output": {
@@ -8791,19 +8700,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2016/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2016/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2016/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2016/what-is-an-iot-platform-vs-an-iot-business-application-suite.md",
       "output": {
@@ -8859,19 +8755,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2017/the-top-5-reasons-to-invest-in-an-iiot-development-platform.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2017/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2017/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2017/toc.html"
         }
       },
       "version": ""
@@ -8937,19 +8820,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2018/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2018/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2018/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2018/what-is-a-digital-business-platform-and-why-should-i-care.md",
       "output": {
@@ -9005,19 +8875,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2019/my-digital-twin-digital-twin-applications-for-realtime-operations-like-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2019/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2019/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2019/toc.html"
         }
       },
       "version": ""
@@ -9083,19 +8940,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2020/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2020/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2020/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2021/copy-me.md",
       "output": {
@@ -9121,19 +8965,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2021/the-value-of-a-composable-digital-twin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2021/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2021/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2021/toc.html"
         }
       },
       "version": ""
@@ -9184,19 +9015,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2022/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2022/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2022/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2022/toc.html"
         }
       },
       "version": ""
@@ -9337,19 +9155,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2023/the-top-5-use-cases-for-composable-digital-twins-in-the-oil--gas-industry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2023/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2023/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2023/toc.html"
         }
       },
       "version": ""
@@ -9605,19 +9410,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2024/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2024/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2024/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2024/understanding-the-difference-between-xmpro-ai-assistant-and-ai-advisor.md",
       "output": {
@@ -9649,46 +9441,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/toc.html"
         }
       },
       "version": ""
@@ -10064,19 +9820,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/use-cases/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/use-cases/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/use-cases/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/use-cases/wheel-and-track-wear.md",
       "output": {
@@ -10107,37 +9850,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2012/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2012/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2012/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/youtube/2013/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/youtube/2013/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2013/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2013/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2013/toc.html"
         }
       },
       "version": ""
@@ -10153,37 +9870,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2016/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2016/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2016/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/youtube/2019/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/youtube/2019/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2019/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2019/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2019/toc.html"
         }
       },
       "version": ""
@@ -10199,37 +9890,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2020/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2020/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2020/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/youtube/2021/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/youtube/2021/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2021/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2021/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2021/toc.html"
         }
       },
       "version": ""
@@ -10245,37 +9910,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2022/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2022/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2022/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/youtube/2023/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/youtube/2023/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2023/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2023/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2023/toc.html"
         }
       },
       "version": ""
@@ -10291,37 +9930,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/2024/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2024/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/2024/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/youtube/index.md",
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/youtube/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/external-content/youtube/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/youtube/toc.html"
         }
       },
       "version": ""
@@ -10352,19 +9965,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/faqs/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/faqs/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/faqs/toc.html"
         }
       },
       "version": ""
@@ -51290,19 +50890,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "docs/resources/whats-new/images/Fig-1-Recommendation-Alerts-list.png",
       "output": {
@@ -51364,29 +50951,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/whats-new/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/whats-new/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/resources/whats-new/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/resources/whats-new/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/resources/whats-new/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/whats-new/whats-new-in-4.0.md",
       "output": {
         ".html": {
@@ -51427,10 +50991,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/whats-new/whats-new.md",
+      "source_relative_path": "docs/resources/whats-new/whats-new-in-4.3.md",
       "output": {
         ".html": {
-          "relative_path": "docs/resources/whats-new/whats-new.html"
+          "relative_path": "docs/resources/whats-new/whats-new-in-4.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/resources/whats-new/whats-new-in-4.4.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/resources/whats-new/whats-new-in-4.4.html"
         }
       },
       "version": ""
