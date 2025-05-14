@@ -8251,16 +8251,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2010/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2010/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2010/index.md",
       "output": {
         ".html": {
@@ -8305,16 +8295,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2011/benefits-of-bpm-v-10.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2011/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2011/copy-me.html"
         }
       },
       "version": ""
@@ -8375,16 +8355,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2011/stretch-socially-dynamic-processes-to-fit-your-business.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2012/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2012/copy-me.html"
         }
       },
       "version": ""
@@ -8461,16 +8431,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2013/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2013/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2013/index.md",
       "output": {
         ".html": {
@@ -8485,16 +8445,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2013/the-learns-from-two-best-in-class-organisations-acquiring-bpm-technology.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2014/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2014/copy-me.html"
         }
       },
       "version": ""
@@ -8535,16 +8485,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2015/6-myths-about-machine-learning.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2015/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2015/copy-me.html"
         }
       },
       "version": ""
@@ -8651,16 +8591,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2016/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2016/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2016/how-to-get-started-with-industrial-iot.md",
       "output": {
         ".html": {
@@ -8711,16 +8641,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2017/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2017/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2017/how-ai-bots-bring-digital-twins-to-life.md",
       "output": {
         ".html": {
@@ -8765,16 +8685,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2018/3-patterns-of-industrial-iot-use-cases.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2018/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2018/copy-me.html"
         }
       },
       "version": ""
@@ -8851,16 +8761,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2019/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2019/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2019/index.md",
       "output": {
         ".html": {
@@ -8875,16 +8775,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2019/my-digital-twin-digital-twin-applications-for-realtime-operations-like-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2020/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2020/copy-me.html"
         }
       },
       "version": ""
@@ -8941,16 +8831,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2021/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2021/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/resources/faqs/external-content/blogs/2021/index.md",
       "output": {
         ".html": {
@@ -8975,16 +8855,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2022/7-trends-for-industrial-digital-twins-in-2022.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2022/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2022/copy-me.html"
         }
       },
       "version": ""
@@ -9035,16 +8905,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2023/accelerate-your-ai-workflow-the-3-key-business-advantages-of-xmpro-notebook.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2023/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2023/copy-me.html"
         }
       },
       "version": ""
@@ -9225,16 +9085,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/blogs/2024/content-decision-and-hybrid-the-three-pillars-of-multiagent-systems-in-industry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/blogs/2024/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/blogs/2024/copy-me.html"
         }
       },
       "version": ""
@@ -9545,16 +9395,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/resources/faqs/external-content/use-cases/cooling-tower-fin-fa.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/resources/faqs/external-content/use-cases/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/resources/faqs/external-content/use-cases/copy-me.html"
         }
       },
       "version": ""
@@ -53884,16 +53724,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/about/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/about/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/about/partners---xmpro.md",
       "output": {
         ".html": {
@@ -53918,16 +53748,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2010/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2010/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2010/copy-me.html"
         }
       },
       "version": ""
@@ -53978,16 +53798,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2011/benefits-of-bpm-v-10.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2011/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2011/copy-me.html"
         }
       },
       "version": ""
@@ -54048,16 +53858,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2012/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2012/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2012/copy-me.html"
         }
       },
       "version": ""
@@ -54134,16 +53934,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2013/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2013/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2013/the-learns-from-two-best-in-class-organisations-acquiring-bpm-technology.md",
       "output": {
         ".html": {
@@ -54158,16 +53948,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2014/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2014/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2014/copy-me.html"
         }
       },
       "version": ""
@@ -54208,16 +53988,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2015/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2015/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2015/copy-me.html"
         }
       },
       "version": ""
@@ -54324,16 +54094,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2016/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2016/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2016/how-to-get-started-with-industrial-iot.md",
       "output": {
         ".html": {
@@ -54384,16 +54144,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2017/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2017/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2017/how-ai-bots-bring-digital-twins-to-life.md",
       "output": {
         ".html": {
@@ -54438,16 +54188,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2018/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2018/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2018/copy-me.html"
         }
       },
       "version": ""
@@ -54524,16 +54264,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2019/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2019/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2019/my-digital-twin-digital-twin-applications-for-realtime-operations-like-me.md",
       "output": {
         ".html": {
@@ -54548,16 +54278,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2020/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2020/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2020/copy-me.html"
         }
       },
       "version": ""
@@ -54614,16 +54334,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2021/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2021/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2021/the-value-of-a-composable-digital-twin.md",
       "output": {
         ".html": {
@@ -54648,16 +54358,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2022/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2022/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2022/copy-me.html"
         }
       },
       "version": ""
@@ -54708,16 +54408,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2023/accelerate-your-ai-workflow-the-3-key-business-advantages-of-xmpro-notebook.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2023/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2023/copy-me.html"
         }
       },
       "version": ""
@@ -54898,16 +54588,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2024/content-decision-and-hybrid-the-three-pillars-of-multiagent-systems-in-industry.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2024/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/2024/copy-me.html"
         }
       },
       "version": ""
@@ -55114,30 +54794,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/Unknown/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/Unknown/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/blogs/Unknown/new-podcast-mind-blowing-ai-agentic-operations-for-industry-with-xmpro-mags.md",
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/blogs/Unknown/new-podcast-mind-blowing-ai-agentic-operations-for-industry-with-xmpro-mags.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/key-features/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/key-features/copy-me.html"
         }
       },
       "version": ""
@@ -55278,16 +54938,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/latest-news/cool-vendor-xmpro.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/latest-news/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/latest-news/copy-me.html"
         }
       },
       "version": ""
@@ -56694,16 +56344,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/platform/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/platform/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/platform/data-stream-desig....md",
       "output": {
         ".html": {
@@ -56788,16 +56428,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/solutions/condition-monitoring.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/solutions/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/solutions/copy-me.html"
         }
       },
       "version": ""
@@ -56898,16 +56528,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/test/best-next-action-is-the-next-big-thing-for-intelli.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/test/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/test/copy-me.html"
         }
       },
       "version": ""
@@ -57614,16 +57234,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/use-cases/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/use-cases/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/use-cases/cyclone-slurry-pump-.md",
       "output": {
         ".html": {
@@ -57894,16 +57504,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/why-xmpro/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/why-xmpro/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/why-xmpro/problems-xmpro-solve.md",
       "output": {
         ".html": {
@@ -57938,16 +57538,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2012/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2012/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2012/copy-me.html"
         }
       },
       "version": ""
@@ -58064,16 +57654,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2013/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2013/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2013/xmpro-best-next-action---3-examples-for-xmpro-blog.md",
       "output": {
         ".html": {
@@ -58114,16 +57694,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2016/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2016/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2016/xmpro-ibpms-overview.md",
       "output": {
         ".html": {
@@ -58138,16 +57708,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2019/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2019/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2019/copy-me.html"
         }
       },
       "version": ""
@@ -58378,16 +57938,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2020/agents-and-their-types---xmpro-data-stream-designer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2020/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2020/copy-me.html"
         }
       },
       "version": ""
@@ -59964,16 +59514,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2021/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2021/copy-me.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2021/the-value-of-a-composable-digital-twin---xmpro-webinar.md",
       "output": {
         ".html": {
@@ -60028,16 +59568,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2022/calculated-field-transformation-agent-example---xmpro-data-stream-designer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2022/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2022/copy-me.html"
         }
       },
       "version": ""
@@ -60388,16 +59918,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2023/an-introduction-to-intelligent-digital-twins---webinar.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2023/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2023/copy-me.html"
         }
       },
       "version": ""
@@ -60848,16 +60368,6 @@
       "output": {
         ".html": {
           "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2024/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2024/copy-me.md",
-      "output": {
-        ".html": {
-          "relative_path": "gitbook/docs/resources/faqs/external-content/youtube/2024/copy-me.html"
         }
       },
       "version": ""
