@@ -2941,16 +2941,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/concepts/insights/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/concepts/insights/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/concepts/landing-pages.md",
       "output": {
         ".html": {
