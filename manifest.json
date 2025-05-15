@@ -96,19 +96,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/administration/companies/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/administration/companies/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/administration/companies/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/administration/index.md",
       "output": {
@@ -170,26 +157,13 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "docs/administration/subscriptions-admin/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/administration/subscriptions-admin/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/administration/subscriptions-admin/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
       "source_relative_path": "docs/administration/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/administration/toc.json"
-        },
         ".html": {
           "relative_path": "docs/administration/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/administration/toc.json"
         }
       },
       "version": ""
@@ -270,19 +244,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/administration/users/reset-password.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/administration/users/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/administration/users/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/administration/users/toc.html"
         }
       },
       "version": ""
@@ -473,19 +434,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/blocks-toolbox/advanced/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/blocks-toolbox/advanced/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/blocks-toolbox/advanced/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/blocks-toolbox/advanced/toc.html"
         }
       },
       "version": ""
@@ -1451,50 +1399,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/blocks-toolbox/recommendations/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/blocks-toolbox/recommendations/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/blocks-toolbox/recommendations/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/blocks-toolbox/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/blocks-toolbox/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/blocks-toolbox/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/blocks-toolbox/visualizations/README.md",
       "output": {
         ".html": {
           "relative_path": "docs/blocks-toolbox/visualizations/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/blocks-toolbox/visualizations/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/blocks-toolbox/visualizations/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/blocks-toolbox/visualizations/toc.html"
         }
       },
       "version": ""
@@ -3970,19 +3879,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/agents/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/agents/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/agents/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/how-tos/apps/README.md",
       "output": {
@@ -4143,19 +4039,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/apps/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/apps/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/apps/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/how-tos/apps/use-block-styling-and-devices.md",
       "output": {
@@ -4276,19 +4159,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/connectors/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/connectors/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/connectors/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/how-tos/data-streams/README.md",
       "output": {
@@ -4374,19 +4244,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/how-tos/data-streams/setup-input-mappings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/data-streams/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/data-streams/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/data-streams/toc.html"
         }
       },
       "version": ""
@@ -6502,37 +6359,11 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/recommendations/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/recommendations/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/recommendations/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/how-tos/stream-host.md",
       "output": {
         ".html": {
           "relative_path": "docs/how-tos/stream-host.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/how-tos/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/how-tos/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/how-tos/toc.html"
         }
       },
       "version": ""
@@ -6828,19 +6659,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/installation/complete-installation/configure-sso-optional/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/installation/complete-installation/configure-sso-optional/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/installation/complete-installation/configure-sso-optional/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/installation/complete-installation/index.md",
       "output": {
@@ -6891,19 +6709,6 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "docs/installation/complete-installation/install-stream-host/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/installation/complete-installation/install-stream-host/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/installation/complete-installation/install-stream-host/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/installation/complete-installation/install-stream-host/ubuntu-16.04+-x64.md",
       "output": {
@@ -6929,19 +6734,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/installation/complete-installation/set-up-a-tenant-company.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/installation/complete-installation/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/installation/complete-installation/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/installation/complete-installation/toc.html"
         }
       },
       "version": ""
@@ -6982,19 +6774,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/installation/deployment/on-premise.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/installation/deployment/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/installation/deployment/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/installation/deployment/toc.html"
         }
       },
       "version": ""
@@ -7683,11 +7462,11 @@
       "type": "Toc",
       "source_relative_path": "docs/installation/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/installation/toc.json"
-        },
         ".html": {
           "relative_path": "docs/installation/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/installation/toc.json"
         }
       },
       "version": ""
@@ -7706,11 +7485,11 @@
       "type": "Toc",
       "source_relative_path": "docs/release-notes/archived/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/release-notes/archived/toc.json"
-        },
         ".html": {
           "relative_path": "docs/release-notes/archived/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/release-notes/archived/toc.json"
         }
       },
       "version": ""
@@ -7759,11 +7538,11 @@
       "type": "Toc",
       "source_relative_path": "docs/release-notes/archived/v4.3.0/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/release-notes/archived/v4.3.0/toc.json"
-        },
         ".html": {
           "relative_path": "docs/release-notes/archived/v4.3.0/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/release-notes/archived/v4.3.0/toc.json"
         }
       },
       "version": ""
@@ -7942,11 +7721,11 @@
       "type": "Toc",
       "source_relative_path": "docs/release-notes/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/release-notes/toc.json"
-        },
         ".html": {
           "relative_path": "docs/release-notes/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/release-notes/toc.json"
         }
       },
       "version": ""
@@ -50765,11 +50544,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -60718,11 +60497,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
